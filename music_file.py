@@ -21,11 +21,13 @@ def endwith(*endstring):
   
 def rm_suffix(srcpath):
 	list_file = os.listdir(srcpath)
-	for filename in list_file :
+	for item in list_file :
 		#将文件名中"[mqms2](1)"去掉
+		filename = srcpath + '\\' + item
 		newname=filename.replace("[mqms2](1)", "")
 		newname=newname.replace("[mqms2]", "")
 		if not (os.path.exists(newname)):
+			print "move " + filename + " to " + newname
 			shutil.move(filename, newname)
 
 def cp_download(src_path, dst_path):
@@ -38,8 +40,9 @@ def cp_download(src_path, dst_path):
 		if not (os.path.isdir(src_file)):
 			# check if the file is exist, before move another file to this file.
 			if not (os.path.exists(dst_file)):
-				shutil.move(src_file, dst_file)
 				print "move {src} to {dst}" .format(src=src_file, dst=dst_file)
+				shutil.move(src_file, dst_file)
+				
 
 			
 if __name__ == "__main__":
