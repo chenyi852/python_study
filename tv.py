@@ -38,12 +38,10 @@ class Archives(object):
         try:   
             for i in range(2015,3000):
                 base_url='http://cn163.net/archives/'           
-                url=base_url+str(i)+'/'
-                print url                   
+                url=base_url+str(i)+'/'                  
                 if requests.get(url).status_code == 404:
                     continue   
                 else:
-                    print url + " is saved!"
                     self.save_links(url)   
         except Exception,e:
             print sys.exc_info()[0]
