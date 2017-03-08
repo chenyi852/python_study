@@ -32,7 +32,7 @@ def rm_suffix(srcpath):
 
 def cp_download(src_path, dst_path):
 	left_files=filecmp.dircmp(src_path,dst_path).left_only
-	a = endwith('.mp3','.falc','.m4a', '.ape')
+	a = endwith('.mp3','.flac','.m4a', '.ape')
 	f_files = filter(a, left_files)
 	for item in f_files:
 		src_file = src_path + '\\' + item
