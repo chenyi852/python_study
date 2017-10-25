@@ -1,0 +1,3246 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+	<!--
+	@author Gregori Gerebtzoff
+	@version 1.2
+	-->
+<NotepadPlus>
+	<AutoComplete>
+		<Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," additionalWordChar = "." />
+		<KeyWord name="ArithmeticError" func="yes">
+			<Overload retVal="" descr="Base class for arithmetic errors.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="AssertionError" func="yes">
+			<Overload retVal="" descr="Assertion failed.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="AttributeError" func="yes">
+			<Overload retVal="" descr="Attribute not found.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="BaseException" func="yes">
+			<Overload retVal="" descr="Common base class for all exceptions">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="BufferError" func="yes">
+			<Overload retVal="" descr="Buffer error.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="BytesWarning" func="yes">
+			<Overload retVal="" descr="Base class for warnings about bytes and buffer related problems, mostly&#10;related to conversion from str or comparing to str.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DeprecationWarning" func="yes">
+			<Overload retVal="" descr="Base class for warnings about deprecated features.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="EOFError" func="yes">
+			<Overload retVal="" descr="Read beyond end of file.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="EnvironmentError" func="yes">
+			<Overload retVal="" descr="Base class for I/O related errors.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Exception" func="yes">
+			<Overload retVal="" descr="Common base class for all non-exit exceptions.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="False" />
+		<KeyWord name="FloatingPointError" func="yes">
+			<Overload retVal="" descr="Floating point operation failed.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FutureWarning" func="yes">
+			<Overload retVal="" descr="Base class for warnings about constructs that will change semantically&#10;in the future.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GeneratorExit" func="yes">
+			<Overload retVal="" descr="Request that a generator exit.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="IOError" func="yes">
+			<Overload retVal="" descr="I/O operation failed.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ImportError" func="yes">
+			<Overload retVal="" descr="Import can't find module, or can't find name in module.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ImportWarning" func="yes">
+			<Overload retVal="" descr="Base class for warnings about probable mistakes in module imports">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="IndentationError" func="yes">
+			<Overload retVal="" descr="Improper indentation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="IndexError" func="yes">
+			<Overload retVal="" descr="Sequence index out of range.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="KeyError" func="yes">
+			<Overload retVal="" descr="Mapping key not found.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="KeyboardInterrupt" func="yes">
+			<Overload retVal="" descr="Program interrupted by user.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LookupError" func="yes">
+			<Overload retVal="" descr="Base class for lookup errors.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MemoryError" func="yes">
+			<Overload retVal="" descr="Out of memory.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NameError" func="yes">
+			<Overload retVal="" descr="Name not found globally.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="None" />
+		<KeyWord name="NotImplementedError" func="yes">
+			<Overload retVal="" descr="Method or function hasn't been implemented yet.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="OSError" func="yes">
+			<Overload retVal="" descr="OS system call failed.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="OverflowError" func="yes">
+			<Overload retVal="" descr="Result too large to be represented.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PendingDeprecationWarning" func="yes">
+			<Overload retVal="" descr="Base class for warnings about features which will be deprecated&#10;in the future.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Popen" func="yes">
+			<Overload retVal="" descr="Function of subprocess.Popen">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ReferenceError" func="yes">
+			<Overload retVal="" descr="Weak ref proxy used after referent went away.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RuntimeError" func="yes">
+			<Overload retVal="" descr="Unspecified run-time error.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RuntimeWarning" func="yes">
+			<Overload retVal="" descr="Base class for warnings about dubious runtime behavior.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="StandardError" func="yes">
+			<Overload retVal="" descr="Base class for all standard Python exceptions that do not represent&#10;interpreter exiting.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="StopIteration" func="yes">
+			<Overload retVal="" descr="Signal the end from iterator.next().">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="StringIO" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SyntaxError" func="yes">
+			<Overload retVal="" descr="Invalid syntax.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SyntaxWarning" func="yes">
+			<Overload retVal="" descr="Base class for warnings about dubious syntax.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SystemError" func="yes">
+			<Overload retVal="" descr="Internal error in the Python interpreter.&#10;&#10;Please report this to the Python maintainer, along with the traceback,&#10;the Python version, and the hardware/OS platform and version.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SystemExit" func="yes">
+			<Overload retVal="" descr="Request to exit from the interpreter.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TabError" func="yes">
+			<Overload retVal="" descr="Improper mixture of spaces and tabs.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="True" />
+		<KeyWord name="TypeError" func="yes">
+			<Overload retVal="" descr="Inappropriate argument type.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="UnboundLocalError" func="yes">
+			<Overload retVal="" descr="Local name referenced but not bound to a value.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="UnicodeDecodeError" func="yes">
+			<Overload retVal="" descr="Unicode decoding error.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="UnicodeEncodeError" func="yes">
+			<Overload retVal="" descr="Unicode encoding error.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="UnicodeError" func="yes">
+			<Overload retVal="" descr="Unicode related error.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="UnicodeTranslateError" func="yes">
+			<Overload retVal="" descr="Unicode translation error.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="UnicodeWarning" func="yes">
+			<Overload retVal="" descr="Base class for warnings about Unicode related problems, mostly&#10;related to conversion problems.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="UserWarning" func="yes">
+			<Overload retVal="" descr="Base class for warnings generated by user code.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ValueError" func="yes">
+			<Overload retVal="" descr="Inappropriate argument value (of correct type).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="WCOREDUMP" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="WEXITSTATUS" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="WIFCONTINUED" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="WIFEXITED" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="WIFSIGNALED" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="WIFSTOPPED" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="WSTOPSIG" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="WTERMSIG" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Warning" func="yes">
+			<Overload retVal="" descr="Base class for warning categories.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ZeroDivisionError" func="yes">
+			<Overload retVal="" descr="Second argument to a division or modulo operation was zero.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="abort" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="abs" func="yes">
+			<Overload retVal="" descr="abs(number) -&gt; number&#10;&#10;Return the absolute value of the argument.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="access" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="add" func="yes">
+			<Overload retVal="" descr="Add an element to a set.&#10;&#10;This has no effect if the element is already present.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="all" func="yes">
+			<Overload retVal="" descr="all(iterable) -&gt; bool&#10;&#10;Return True if bool(x) is True for all values x in the iterable.&#10;If the iterable is empty, return True.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="and" />
+		<KeyWord name="any" func="yes">
+			<Overload retVal="" descr="any(iterable) -&gt; bool&#10;&#10;Return True if bool(x) is True for any x in the iterable.&#10;If the iterable is empty, return False.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="append" func="yes">
+			<Overload retVal="" descr="B.append(int) -&gt; None&#10;&#10;Append a single item to the end of B.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="apply" func="yes">
+			<Overload retVal="" descr="apply(object[, args[, kwargs]]) -&gt; value&#10;&#10;Call a callable object with positional arguments taken from the tuple args,&#10;and keyword arguments taken from the optional dictionary kwargs.&#10;Note that classes are callable, as are instances with a __call__() method.&#10;&#10;Deprecated since release 2.3. Instead, use the extended call syntax:&#10;    function(*args, **keywords).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="as" />
+		<KeyWord name="as_integer_ratio" func="yes">
+			<Overload retVal="" descr="float.as_integer_ratio() -&gt; (int, int)&#10;&#10;Return a pair of integers, whose ratio is exactly equal to the original&#10;float and with a positive denominator.&#10;Raise OverflowError on infinities and a ValueError on NaNs.&#10;&#10;&gt;&gt;&gt; (10.0).as_integer_ratio()&#10;(10, 1)&#10;&gt;&gt;&gt; (0.0).as_integer_ratio()&#10;(0, 1)&#10;&gt;&gt;&gt; (-.25).as_integer_ratio()&#10;(-1, 4)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="assert" />
+		<KeyWord name="basestring" func="yes">
+			<Overload retVal="" descr="Type basestring cannot be instantiated; it is the base for str and unicode.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bin" func="yes">
+			<Overload retVal="" descr="bin(number) -&gt; string&#10;&#10;Return the binary representation of an integer or long integer.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bit_length" func="yes">
+			<Overload retVal="" descr="long.bit_length() -&gt; int or long&#10;&#10;Number of bits necessary to represent self in binary.&#10;&gt;&gt;&gt; bin(37L)&#10;'0b100101'&#10;&gt;&gt;&gt; (37L).bit_length()&#10;6">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bool" func="yes">
+			<Overload retVal="" descr="bool(x) -&gt; bool&#10;&#10;Returns True when the argument x is true, False otherwise.&#10;The builtins True and False are the only two instances of the class bool.&#10;The class bool is a subclass of the class int, and cannot be subclassed.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="break" />
+		<KeyWord name="buffer" func="yes">
+			<Overload retVal="" descr="buffer(object [, offset[, size]])&#10;&#10;Create a new buffer object which references the given object.&#10;The buffer will reference a slice of the target object from the&#10;start of the object (or at the specified offset). The slice will&#10;extend to the end of the target object (or with the specified size).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bytearray" func="yes">
+			<Overload retVal="" descr="bytearray(iterable_of_ints) -&gt; bytearray.&#10;bytearray(string, encoding[, errors]) -&gt; bytearray.&#10;bytearray(bytes_or_bytearray) -&gt; mutable copy of bytes_or_bytearray.&#10;bytearray(memory_view) -&gt; bytearray.&#10;&#10;Construct a mutable bytearray object from:&#10;  - an iterable yielding integers in range(256)&#10;  - a text string encoded using the specified encoding&#10;  - a bytes or a bytearray object&#10;  - any object implementing the buffer API.&#10;&#10;bytearray(int) -&gt; bytearray.&#10;&#10;Construct a zero-initialized bytearray of the given length.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bytes" func="yes">
+			<Overload retVal="" descr="str(object='') -&gt; string&#10;&#10;Return a nice string representation of the object.&#10;If the argument is a string, the return value is the same object.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="call" func="yes">
+			<Overload retVal="" descr="Function of subprocess">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="call_tracing" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="callable" func="yes">
+			<Overload retVal="" descr="callable(object) -&gt; bool&#10;&#10;Return whether the object is callable (i.e., some kind of function).&#10;Note that classes are callable, as are instances with a __call__() method.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="callstats" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="capitalize" func="yes">
+			<Overload retVal="" descr="S.capitalize() -&gt; string&#10;&#10;Return a copy of the string S with only its first character&#10;capitalized.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="center" func="yes">
+			<Overload retVal="" descr="S.center(width[, fillchar]) -&gt; unicode&#10;&#10;Return S centered in a Unicode string of length width. Padding is&#10;done using the specified fill character (default is a space)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi" func="yes">
+			<Overload retVal="" descr="Support module for CGI (Common Gateway Interface) scripts.&#10;&#10;This module defines a number of utilities for use by CGI scripts&#10;written in Python.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.FieldStorage" func="yes">
+			<Overload retVal="" descr="(classobj)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.FormContent" func="yes">
+			<Overload retVal="" descr="(classobj)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.FormContentDict" func="yes">
+			<Overload retVal="" descr="(classobj)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.InterpFormContentDict" func="yes">
+			<Overload retVal="" descr="(classobj)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.MiniFieldStorage" func="yes">
+			<Overload retVal="" descr="(classobj)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.StringIO" func="yes">
+			<Overload retVal="" descr="StringIO([s]) -- Return a StringIO-like stream for reading or writing">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.SvFormContentDict" func="yes">
+			<Overload retVal="" descr="(classobj)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.attrgetter" func="yes">
+			<Overload retVal="" descr="attrgetter(attr, ...) --&gt; attrgetter object&#10;&#10;Return a callable object that fetches the given attribute(s) from its operand.&#10;After f = attrgetter('name'), the call f(r) returns r.name.&#10;After g = attrgetter('name', 'date'), the call g(r) returns (r.name, r.date).&#10;After h = attrgetter('name.first', 'name.last'), the call h(r) returns&#10;(r.name.first, r.name.last).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.catch_warnings" func="yes">
+			<Overload retVal="" descr="A context manager that copies and restores the warnings filter upon&#10;exiting the context.&#10;&#10;The 'record' argument specifies whether warnings should be captured by a&#10;custom implementation of warnings.showwarning() and be appended to a list&#10;returned by the context manager. Otherwise None is returned by the context&#10;manager. The objects appended to the list are arguments whose attributes&#10;mirror the arguments to showwarning().&#10;&#10;The 'module' argument is to specify an alternative module to the module&#10;named 'warnings' and imported under that name. This argument is only useful&#10;when testing the warnings module itself.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.dolog" func="yes">
+			<Overload retVal="" descr="Write a log message to the log file.  See initlog() for docs.">
+				<Param name="fmt" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.escape" func="yes">
+			<Overload retVal="" descr='Replace special characters "&amp;", "&lt;" and "&gt;" to HTML-safe sequences.&#10;If the optional flag quote is true, the quotation mark character (")&#10;is also translated.'>
+				<Param name="s" />
+				<Param name="[quote=None]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.filterwarnings" func="yes">
+			<Overload retVal="" descr="Insert an entry into the list of warnings filters (at the front).&#10;&#10;'action' -- one of &quot;error&quot;, &quot;ignore&quot;, &quot;always&quot;, &quot;default&quot;, &quot;module&quot;,&#10;            or &quot;once&quot;&#10;'message' -- a regex that the warning message must match&#10;'category' -- a class that the warning must be a subclass of&#10;'module' -- a regex that the module name must match&#10;'lineno' -- an integer line number, 0 matches all warnings&#10;'append' -- if true, append to the list of filters">
+				<Param name="action" />
+				<Param name="[message" />
+				<Param name="[category=<type 'exceptions.Warning'>" />
+				<Param name="[module" />
+				<Param name="[lineno=0" />
+				<Param name="[append=0]]]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.initlog" func="yes">
+			<Overload retVal="" descr="Write a log message, if there is a log file.&#10;&#10;Even though this function is called initlog(), you should always&#10;use log(); log is a variable that is set either to initlog&#10;(initially), to dolog (once the log file has been opened), or to&#10;nolog (when logging is disabled).&#10;&#10;The first argument is a format string; the remaining arguments (if&#10;any) are arguments to the % operator, so e.g.&#10;    log(&quot;%s: %s&quot;, &quot;a&quot;, &quot;b&quot;)&#10;will write &quot;a: b&quot; to the log file, followed by a newline.&#10;&#10;If the global logfp is not None, it should be a file object to&#10;which log data is written.&#10;&#10;If the global logfp is None, the global logfile may be a string&#10;giving a filename to open, in append mode.  This file should be&#10;world writable!!!  If the file can't be opened, logging is&#10;silently disabled (since there is no safe place where we could&#10;send an error message).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.log" func="yes">
+			<Overload retVal="" descr="Write a log message, if there is a log file.&#10;&#10;Even though this function is called initlog(), you should always&#10;use log(); log is a variable that is set either to initlog&#10;(initially), to dolog (once the log file has been opened), or to&#10;nolog (when logging is disabled).&#10;&#10;The first argument is a format string; the remaining arguments (if&#10;any) are arguments to the % operator, so e.g.&#10;    log(&quot;%s: %s&quot;, &quot;a&quot;, &quot;b&quot;)&#10;will write &quot;a: b&quot; to the log file, followed by a newline.&#10;&#10;If the global logfp is not None, it should be a file object to&#10;which log data is written.&#10;&#10;If the global logfp is None, the global logfile may be a string&#10;giving a filename to open, in append mode.  This file should be&#10;world writable!!!  If the file can't be opened, logging is&#10;silently disabled (since there is no safe place where we could&#10;send an error message).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.nolog" func="yes">
+			<Overload retVal="" descr="Dummy function, assigned to log when logging is disabled.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.parse" func="yes">
+			<Overload retVal="" descr="Parse a query in the environment or from a file (default stdin)&#10;&#10;Arguments, all optional:&#10;&#10;fp              : file pointer; default: sys.stdin&#10;&#10;environ         : environment dictionary; default: os.environ&#10;&#10;keep_blank_values: flag indicating whether blank values in&#10;    percent-encoded forms should be treated as blank strings.&#10;    A true value indicates that blanks should be retained as&#10;    blank strings.  The default false value indicates that&#10;    blank values are to be ignored and treated as if they were&#10;    not included.&#10;&#10;strict_parsing: flag indicating what to do with parsing errors.&#10;    If false (the default), errors are silently ignored.&#10;    If true, errors raise a ValueError exception.">
+				<Param name="[fp=None" />
+				<Param name="[environ={'TMP': '/tmp', 'PSModulePath': 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\', 'SYSTEMDRIVE': 'C:', 'PROCESSOR_REVISION': '3d04', 'USERDOMAIN': 'CHINA', 'EXECIGNORE': '*.dll', 'COMPUTERNAME': 'C00200500-HP', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 61 Stepping 4, GenuineIntel', 'USER': 'c00200500', 'LDMS_LOCAL_DIR': 'C:\\Program Files (x86)\\LANDesk\\LDClient\\Data', 'HOME': '/home/c00200500', 'SYSTEMROOT': 'C:\\Windows', 'PRINTER': '\\\\ercps01-ss\\GRC_Munich_D3.OG Left_C5240', 'PS1': '\\[\\e]0;\\w\\a\\]\\n\\[\\e[32m\\]\\u@\\h \\[\\e[33m\\]\\w\\[\\e[0m\\]\\n\\$ ', 'HOMEDRIVE': 'C:', 'LANG': 'en_US.UTF-8', 'INFOPATH': '/usr/local/info:/usr/share/info:/usr/info', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'TZ': 'Europe/Berlin', 'TEMP': '/tmp', 'ProgramData': 'C:\\ProgramData', 'SHLVL': '1', 'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'ALLUSERSPROFILE': 'C:\\ProgramData', '!::': '::\\', 'LOCALAPPDATA': 'C:\\Users\\c00200500.CHINA\\AppData\\Local', 'HOMEPATH': '\\Users\\c00200500.CHINA', 'USERDOMAIN_ROAMINGPROFILE': 'CHINA', 'PROFILEREAD': 'true', 'ProgramFiles(x86)': 'C:\\Program Files (x86)', 'ProgramW6432': 'C:\\Program Files', 'USERNAME': 'c00200500', 'LOGONSERVER': '\\\\DFWAD01-DC', 'COMSPEC': 'C:\\Windows\\system32\\cmd.exe', 'windows_tracing_logfile': 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log', 'PATH': '~/bin:/cygdrive/c/Program Files (x86)/:/usr/local/bin:/usr/bin:/cygdrive/d/tools/Python27:/cygdrive/d/tools/Python27/Scripts:/cygdrive/c/Program Files (x86)/Intel/iCLS Client:/cygdrive/c/Program Files/Intel/iCLS Client:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files/TortoiseSVN/bin:/cygdrive/d/tools/UnixUtils/usr/local/wbin:/cygdrive/c/Program Files (x86)/MacType', 'ORIGINAL_PATH': '/cygdrive/d/tools/Python27:/cygdrive/d/tools/Python27/Scripts:/cygdrive/c/Program Files (x86)/Intel/iCLS Client:/cygdrive/c/Program Files/Intel/iCLS Client:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files/TortoiseSVN/bin:/cygdrive/d/tools/UnixUtils/usr/local/wbin:/cygdrive/c/Program Files (x86)/MacType', 'USERDNSDOMAIN': 'CHINA.HUAWEI.COM', 'SESSIONNAME': 'Console', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC', 'CommonProgramW6432': 'C:\\Program Files\\Common Files', '_': '/usr/bin/python', 'FP_NO_HOST_CHECK': 'NO', 'WINDIR': 'C:\\Windows', 'unixdir': 'D:\\tools\\UnixUtils\\usr\\local\\wbin', 'windows_tracing_flags': '3', 'APPDATA': 'C:\\Users\\c00200500.CHINA\\AppData\\Roaming', 'PROGRAMFILES': 'C:\\Program Files', 'OLDPWD': '/cygdrive/d/W_WorkSpace/python', 'HOSTNAME': 'c00200500-HP', 'GIT_SSL_NO_VERIFY': 'true', 'NUMBER_OF_PROCESSORS': '4', 'PWD': '/cygdrive/d/W_WorkSpace/python/python_study', 'PROCESSOR_LEVEL': '6', 'OS': 'Windows_NT', 'PUBLIC': 'C:\\Users\\Public', 'USERPROFILE': 'C:\\Users\\c00200500.CHINA'}" />
+				<Param name="[keep_blank_values=0" />
+				<Param name="[strict_parsing=0]]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.parse_header" func="yes">
+			<Overload retVal="" descr="Parse a Content-type like header.&#10;&#10;Return the main content-type and a dictionary of options.">
+				<Param name="line" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.parse_multipart" func="yes">
+			<Overload retVal="" descr="Parse multipart input.&#10;&#10;Arguments:&#10;fp   : input file&#10;pdict: dictionary containing other parameters of content-type header&#10;&#10;Returns a dictionary just like parse_qs(): keys are the field names, each&#10;value is a list of values for that field.  This is easy to use but not&#10;much good if you are expecting megabytes to be uploaded -- in that case,&#10;use the FieldStorage class instead which is much more flexible.  Note&#10;that content-type is the raw, unparsed contents of the content-type&#10;header.&#10;&#10;XXX This does not parse nested multipart parts -- use FieldStorage for&#10;that.&#10;&#10;XXX This should really be subsumed by FieldStorage altogether -- no&#10;point in having two implementations of the same parsing algorithm.&#10;Also, FieldStorage protects itself better against certain DoS attacks&#10;by limiting the size of the data read in one chunk.  The API here&#10;does not support that kind of protection.  This also affects parse()&#10;since it can call parse_multipart().">
+				<Param name="fp" />
+				<Param name="pdict" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.parse_qs" func="yes">
+			<Overload retVal="" descr="Parse a query given as a string argument.">
+				<Param name="qs" />
+				<Param name="[keep_blank_values=0" />
+				<Param name="[strict_parsing=0]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.parse_qsl" func="yes">
+			<Overload retVal="" descr="Parse a query given as a string argument.">
+				<Param name="qs" />
+				<Param name="[keep_blank_values=0" />
+				<Param name="[strict_parsing=0]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.print_arguments" />
+		<KeyWord name="cgi.print_directory" func="yes">
+			<Overload retVal="" descr="Dump the current directory as HTML.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.print_environ" func="yes">
+			<Overload retVal="" descr="Dump the shell environment as HTML.">
+				<Param name="[environ={'TMP': '/tmp', 'PSModulePath': 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\', 'SYSTEMDRIVE': 'C:', 'PROCESSOR_REVISION': '3d04', 'USERDOMAIN': 'CHINA', 'EXECIGNORE': '*.dll', 'COMPUTERNAME': 'C00200500-HP', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 61 Stepping 4, GenuineIntel', 'USER': 'c00200500', 'LDMS_LOCAL_DIR': 'C:\\Program Files (x86)\\LANDesk\\LDClient\\Data', 'HOME': '/home/c00200500', 'SYSTEMROOT': 'C:\\Windows', 'PRINTER': '\\\\ercps01-ss\\GRC_Munich_D3.OG Left_C5240', 'PS1': '\\[\\e]0;\\w\\a\\]\\n\\[\\e[32m\\]\\u@\\h \\[\\e[33m\\]\\w\\[\\e[0m\\]\\n\\$ ', 'HOMEDRIVE': 'C:', 'LANG': 'en_US.UTF-8', 'INFOPATH': '/usr/local/info:/usr/share/info:/usr/info', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'TZ': 'Europe/Berlin', 'TEMP': '/tmp', 'ProgramData': 'C:\\ProgramData', 'SHLVL': '1', 'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'ALLUSERSPROFILE': 'C:\\ProgramData', '!::': '::\\', 'LOCALAPPDATA': 'C:\\Users\\c00200500.CHINA\\AppData\\Local', 'HOMEPATH': '\\Users\\c00200500.CHINA', 'USERDOMAIN_ROAMINGPROFILE': 'CHINA', 'PROFILEREAD': 'true', 'ProgramFiles(x86)': 'C:\\Program Files (x86)', 'ProgramW6432': 'C:\\Program Files', 'USERNAME': 'c00200500', 'LOGONSERVER': '\\\\DFWAD01-DC', 'COMSPEC': 'C:\\Windows\\system32\\cmd.exe', 'windows_tracing_logfile': 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log', 'PATH': '~/bin:/cygdrive/c/Program Files (x86)/:/usr/local/bin:/usr/bin:/cygdrive/d/tools/Python27:/cygdrive/d/tools/Python27/Scripts:/cygdrive/c/Program Files (x86)/Intel/iCLS Client:/cygdrive/c/Program Files/Intel/iCLS Client:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files/TortoiseSVN/bin:/cygdrive/d/tools/UnixUtils/usr/local/wbin:/cygdrive/c/Program Files (x86)/MacType', 'ORIGINAL_PATH': '/cygdrive/d/tools/Python27:/cygdrive/d/tools/Python27/Scripts:/cygdrive/c/Program Files (x86)/Intel/iCLS Client:/cygdrive/c/Program Files/Intel/iCLS Client:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files/TortoiseSVN/bin:/cygdrive/d/tools/UnixUtils/usr/local/wbin:/cygdrive/c/Program Files (x86)/MacType', 'USERDNSDOMAIN': 'CHINA.HUAWEI.COM', 'SESSIONNAME': 'Console', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC', 'CommonProgramW6432': 'C:\\Program Files\\Common Files', '_': '/usr/bin/python', 'FP_NO_HOST_CHECK': 'NO', 'WINDIR': 'C:\\Windows', 'unixdir': 'D:\\tools\\UnixUtils\\usr\\local\\wbin', 'windows_tracing_flags': '3', 'APPDATA': 'C:\\Users\\c00200500.CHINA\\AppData\\Roaming', 'PROGRAMFILES': 'C:\\Program Files', 'OLDPWD': '/cygdrive/d/W_WorkSpace/python', 'HOSTNAME': 'c00200500-HP', 'GIT_SSL_NO_VERIFY': 'true', 'NUMBER_OF_PROCESSORS': '4', 'PWD': '/cygdrive/d/W_WorkSpace/python/python_study', 'PROCESSOR_LEVEL': '6', 'OS': 'Windows_NT', 'PUBLIC': 'C:\\Users\\Public', 'USERPROFILE': 'C:\\Users\\c00200500.CHINA'}]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.print_environ_usage" func="yes">
+			<Overload retVal="" descr="Dump a list of environment variables used by CGI as HTML.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.print_exception" func="yes">
+			<Overload retVal="" descr=>
+				<Param name="[type=None" />
+				<Param name="[value=None" />
+				<Param name="[tb=None" />
+				<Param name="[limit=None]]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.print_form" func="yes">
+			<Overload retVal="" descr="Dump the contents of a form as HTML.">
+				<Param name="form" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.test" func="yes">
+			<Overload retVal="" descr="Robust test CGI script, usable as main program.&#10;&#10;Write minimal HTTP headers and dump all information provided to&#10;the script in HTML form.">
+				<Param name="[environ={'TMP': '/tmp', 'PSModulePath': 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\', 'SYSTEMDRIVE': 'C:', 'PROCESSOR_REVISION': '3d04', 'USERDOMAIN': 'CHINA', 'EXECIGNORE': '*.dll', 'COMPUTERNAME': 'C00200500-HP', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 61 Stepping 4, GenuineIntel', 'USER': 'c00200500', 'LDMS_LOCAL_DIR': 'C:\\Program Files (x86)\\LANDesk\\LDClient\\Data', 'HOME': '/home/c00200500', 'SYSTEMROOT': 'C:\\Windows', 'PRINTER': '\\\\ercps01-ss\\GRC_Munich_D3.OG Left_C5240', 'PS1': '\\[\\e]0;\\w\\a\\]\\n\\[\\e[32m\\]\\u@\\h \\[\\e[33m\\]\\w\\[\\e[0m\\]\\n\\$ ', 'HOMEDRIVE': 'C:', 'LANG': 'en_US.UTF-8', 'INFOPATH': '/usr/local/info:/usr/share/info:/usr/info', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'TZ': 'Europe/Berlin', 'TEMP': '/tmp', 'ProgramData': 'C:\\ProgramData', 'SHLVL': '1', 'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'ALLUSERSPROFILE': 'C:\\ProgramData', '!::': '::\\', 'LOCALAPPDATA': 'C:\\Users\\c00200500.CHINA\\AppData\\Local', 'HOMEPATH': '\\Users\\c00200500.CHINA', 'USERDOMAIN_ROAMINGPROFILE': 'CHINA', 'PROFILEREAD': 'true', 'ProgramFiles(x86)': 'C:\\Program Files (x86)', 'ProgramW6432': 'C:\\Program Files', 'USERNAME': 'c00200500', 'LOGONSERVER': '\\\\DFWAD01-DC', 'COMSPEC': 'C:\\Windows\\system32\\cmd.exe', 'windows_tracing_logfile': 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log', 'PATH': '~/bin:/cygdrive/c/Program Files (x86)/:/usr/local/bin:/usr/bin:/cygdrive/d/tools/Python27:/cygdrive/d/tools/Python27/Scripts:/cygdrive/c/Program Files (x86)/Intel/iCLS Client:/cygdrive/c/Program Files/Intel/iCLS Client:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files/TortoiseSVN/bin:/cygdrive/d/tools/UnixUtils/usr/local/wbin:/cygdrive/c/Program Files (x86)/MacType', 'ORIGINAL_PATH': '/cygdrive/d/tools/Python27:/cygdrive/d/tools/Python27/Scripts:/cygdrive/c/Program Files (x86)/Intel/iCLS Client:/cygdrive/c/Program Files/Intel/iCLS Client:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files/TortoiseSVN/bin:/cygdrive/d/tools/UnixUtils/usr/local/wbin:/cygdrive/c/Program Files (x86)/MacType', 'USERDNSDOMAIN': 'CHINA.HUAWEI.COM', 'SESSIONNAME': 'Console', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC', 'CommonProgramW6432': 'C:\\Program Files\\Common Files', '_': '/usr/bin/python', 'FP_NO_HOST_CHECK': 'NO', 'WINDIR': 'C:\\Windows', 'unixdir': 'D:\\tools\\UnixUtils\\usr\\local\\wbin', 'windows_tracing_flags': '3', 'APPDATA': 'C:\\Users\\c00200500.CHINA\\AppData\\Roaming', 'PROGRAMFILES': 'C:\\Program Files', 'OLDPWD': '/cygdrive/d/W_WorkSpace/python', 'HOSTNAME': 'c00200500-HP', 'GIT_SSL_NO_VERIFY': 'true', 'NUMBER_OF_PROCESSORS': '4', 'PWD': '/cygdrive/d/W_WorkSpace/python/python_study', 'PROCESSOR_LEVEL': '6', 'OS': 'Windows_NT', 'PUBLIC': 'C:\\Users\\Public', 'USERPROFILE': 'C:\\Users\\c00200500.CHINA'}]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.valid_boundary" func="yes">
+			<Overload retVal="" descr=>
+				<Param name="s" />
+				<Param name="[_vb_pattern=^[ -~]{0,200}[!-~]$]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cgi.warn" func="yes">
+			<Overload retVal="" descr="Issue a warning, or maybe ignore it or raise an exception.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chdir" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="check_call" func="yes">
+			<Overload retVal="" descr="Function of subprocess">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="check_output" func="yes">
+			<Overload retVal="" descr="Function of subprocess">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chmod" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chown" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chr" func="yes">
+			<Overload retVal="" descr="chr(i) -&gt; character&#10;&#10;Return a string of one character with ordinal i; 0 &lt;= i &lt; 256.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chroot" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="class" />
+		<KeyWord name="classmethod" func="yes">
+			<Overload retVal="" descr="classmethod(function) -&gt; method&#10;&#10;Convert a function to be a class method.&#10;&#10;A class method receives the class as implicit first argument,&#10;just like an instance method receives the instance.&#10;To declare a class method, use this idiom:&#10;&#10;  class C:&#10;      @classmethod&#10;      def f(cls, arg1, arg2, ...):&#10;          ...&#10;&#10;It can be called either on the class (e.g. C.f()) or on an instance&#10;(e.g. C().f()).  The instance is ignored except for its class.&#10;If a class method is called for a derived class, the derived class&#10;object is passed as the implied first argument.&#10;&#10;Class methods are different than C++ or Java static methods.&#10;If you want those, see the staticmethod builtin.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="clear" func="yes">
+			<Overload retVal="" descr="Remove all elements from this set.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="close" func="yes">
+			<Overload retVal="" descr="close() -&gt; None or (perhaps) an integer.  Close the file.&#10;&#10;Sets data attribute .closed to True.  A closed file cannot be used for&#10;further I/O operations.  close() may be called more than once without&#10;error.  Some kinds of file objects (for example, opened by popen())&#10;may return an exit status upon closing.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="closerange" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cmp" func="yes">
+			<Overload retVal="" descr="cmp(x, y) -&gt; integer&#10;&#10;Return negative if x&lt;y, zero if x==y, positive if x&gt;y.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="coerce" func="yes">
+			<Overload retVal="" descr="coerce(x, y) -&gt; (x1, y1)&#10;&#10;Return a tuple consisting of the two numeric arguments converted to&#10;a common type, using the same rules as used by arithmetic operations.&#10;If coercion is not possible, raise TypeError.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="communicate" func="yes">
+			<Overload retVal="" descr="Function of subprocess.Popen">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="compile" func="yes">
+			<Overload retVal="" descr="compile(source, filename, mode[, flags[, dont_inherit]]) -&gt; code object&#10;&#10;Compile the source string (a Python module, statement or expression)&#10;into a code object that can be executed by the exec statement or eval().&#10;The filename will be used for run-time error messages.&#10;The mode must be 'exec' to compile a module, 'single' to compile a&#10;single (interactive) statement, or 'eval' to compile an expression.&#10;The flags argument, if present, controls which future statements influence&#10;the compilation of the code.&#10;The dont_inherit argument, if non-zero, stops the compilation inheriting&#10;the effects of any future statements in effect in the code calling&#10;compile; if absent or zero these statements do influence the compilation,&#10;in addition to any features explicitly specified.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="complex" func="yes">
+			<Overload retVal="" descr="complex(real[, imag]) -&gt; complex number&#10;&#10;Create a complex number from a real part and an optional imaginary part.&#10;This is equivalent to (real + imag*1j) where imag defaults to 0.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="confstr" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="conjugate" func="yes">
+			<Overload retVal="" descr="Returns self, the complex conjugate of any int.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="continue" />
+		<KeyWord name="copy" func="yes">
+			<Overload retVal="" descr="D.copy() -&gt; a shallow copy of D">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="count" func="yes">
+			<Overload retVal="" descr="L.count(value) -&gt; integer -- return number of occurrences of value">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ctermid" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="decode" func="yes">
+			<Overload retVal="" descr="S.decode([encoding[,errors]]) -&gt; object&#10;&#10;Decodes S using the codec registered for encoding. encoding defaults&#10;to the default encoding. errors may be given to set a different error&#10;handling scheme. Default is 'strict' meaning that encoding errors raise&#10;a UnicodeDecodeError. Other possible values are 'ignore' and 'replace'&#10;as well as any other name registered with codecs.register_error that is&#10;able to handle UnicodeDecodeErrors.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="def" />
+		<KeyWord name="del" />
+		<KeyWord name="delattr" func="yes">
+			<Overload retVal="" descr="delattr(object, name)&#10;&#10;Delete a named attribute on an object; delattr(x, 'y') is equivalent to&#10;``del x.y''.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="deleter" func="yes">
+			<Overload retVal="" descr="Descriptor to change the deleter on a property.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dict" func="yes">
+			<Overload retVal="" descr="dict() -&gt; new empty dictionary&#10;dict(mapping) -&gt; new dictionary initialized from a mapping object's&#10;    (key, value) pairs&#10;dict(iterable) -&gt; new dictionary initialized as if via:&#10;    d = {}&#10;    for k, v in iterable:&#10;        d[k] = v&#10;dict(**kwargs) -&gt; new dictionary initialized with the name=value pairs&#10;    in the keyword argument list.  For example:  dict(one=1, two=2)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="difference" func="yes">
+			<Overload retVal="" descr="Return the difference of two or more sets as a new set.&#10;&#10;(i.e. all elements that are in this set but not the others.)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="difference_update" func="yes">
+			<Overload retVal="" descr="Remove all elements of another set from this set.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dir" func="yes">
+			<Overload retVal="" descr="dir([object]) -&gt; list of strings&#10;&#10;If called without an argument, return the names in the current scope.&#10;Else, return an alphabetized list of names comprising (some of) the attributes&#10;of the given object, and of attributes reachable from it.&#10;If the object supplies a method named __dir__, it will be used; otherwise&#10;the default dir() logic is used and returns:&#10;  for a module object: the module's attributes.&#10;  for a class object:  its attributes, and recursively the attributes&#10;    of its bases.&#10;  for any other object: its attributes, its class's attributes, and&#10;    recursively the attributes of its class's base classes.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="discard" func="yes">
+			<Overload retVal="" descr="Remove an element from a set if it is a member.&#10;&#10;If the element is not a member, do nothing.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="displayhook" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="divmod" func="yes">
+			<Overload retVal="" descr="divmod(x, y) -&gt; (quotient, remainder)&#10;&#10;Return the tuple (x//y, x%y).  Invariant: div*y + mod == x.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dolog" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dup" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dup2" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="elif" />
+		<KeyWord name="else" />
+		<KeyWord name="encode" func="yes">
+			<Overload retVal="" descr="S.encode([encoding[,errors]]) -&gt; string or unicode&#10;&#10;Encodes S using the codec registered for encoding. encoding defaults&#10;to the default encoding. errors may be given to set a different error&#10;handling scheme. Default is 'strict' meaning that encoding errors raise&#10;a UnicodeEncodeError. Other possible values are 'ignore', 'replace' and&#10;'xmlcharrefreplace' as well as any other name registered with&#10;codecs.register_error that can handle UnicodeEncodeErrors.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="endswith" func="yes">
+			<Overload retVal="" descr="B.endswith(suffix [,start [,end]]) -&gt; bool&#10;&#10;Return True if B ends with the specified suffix, False otherwise.&#10;With optional start, test B beginning at that position.&#10;With optional end, stop comparing B at that position.&#10;suffix can also be a tuple of strings to try.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="enumerate" func="yes">
+			<Overload retVal="" descr="enumerate(iterable[, start]) -&gt; iterator for index, value of iterable&#10;&#10;Return an enumerate object.  iterable must be another object that supports&#10;iteration.  The enumerate object yields pairs containing a count (from&#10;start, which defaults to zero) and a value yielded by the iterable argument.&#10;enumerate is useful for obtaining an indexed list:&#10;    (0, seq[0]), (1, seq[1]), (2, seq[2]), ...">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="escape" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="eval" func="yes">
+			<Overload retVal="" descr="eval(source[, globals[, locals]]) -&gt; value&#10;&#10;Evaluate the source in the context of globals and locals.&#10;The source may be a string representing a Python expression&#10;or a code object as returned by compile().&#10;The globals must be a dictionary and locals can be any mapping,&#10;defaulting to the current globals and locals.&#10;If only globals is given, locals defaults to it.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="exc_clear" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="exc_info" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="except" />
+		<KeyWord name="excepthook" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="exec" />
+		<KeyWord name="execfile" func="yes">
+			<Overload retVal="" descr="execfile(filename[, globals[, locals]])&#10;&#10;Read and execute a Python script from a file.&#10;The globals and locals are dictionaries, defaulting to the current&#10;globals and locals.  If only globals is given, locals defaults to it.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="execl" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="execle" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="execlp" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="execlpe" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="execv" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="execve" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="execvp" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="execvpe" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="exit" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="expandtabs" func="yes">
+			<Overload retVal="" descr="B.expandtabs([tabsize]) -&gt; copy of B&#10;&#10;Return a copy of B where all tab characters are expanded using spaces.&#10;If tabsize is not given, a tab size of 8 characters is assumed.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="extend" func="yes">
+			<Overload retVal="" descr="B.extend(iterable int) -&gt; None&#10;&#10;Append all the elements from the iterator or sequence to the&#10;end of B.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fchdir" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fchmod" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fchown" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fdatasync" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fdopen" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="file" func="yes">
+			<Overload retVal="" descr="file(name[, mode[, buffering]]) -&gt; file object&#10;&#10;Open a file.  The mode can be 'r', 'w' or 'a' for reading (default),&#10;writing or appending.  The file will be created if it doesn't exist&#10;when opened for writing or appending; it will be truncated when&#10;opened for writing.  Add a 'b' to the mode for binary files.&#10;Add a '+' to the mode to allow simultaneous reading and writing.&#10;If the buffering argument is given, 0 means unbuffered, 1 means line&#10;buffered, and larger numbers specify the buffer size.  The preferred way&#10;to open a file is with the builtin open() function.&#10;Add a 'U' to mode to open the file for input with universal newline&#10;support.  Any line ending in the input file will be seen as a '\n'&#10;in Python.  Also, a file so opened gains the attribute 'newlines';&#10;the value for this attribute is one of None (no newline read yet),&#10;'\r', '\n', '\r\n' or a tuple containing all the newline types seen.&#10;&#10;'U' cannot be combined with 'w' or '+' mode.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fileno" func="yes">
+			<Overload retVal="" descr='fileno() -&gt; integer "file descriptor".&#10;&#10;This is needed for lower-level file interfaces, such os.read().'>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="filter" func="yes">
+			<Overload retVal="" descr="filter(function or None, sequence) -&gt; list, tuple, or string&#10;&#10;Return those items of sequence for which function(item) is true.  If&#10;function is None, return the items that are true.  If sequence is a tuple&#10;or string, return the same type, else return a list.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="filterwarnings" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="finally" />
+		<KeyWord name="find" func="yes">
+			<Overload retVal="" descr="S.find(sub [,start [,end]]) -&gt; int&#10;&#10;Return the lowest index in S where substring sub is found,&#10;such that sub is contained within S[start:end].  Optional&#10;arguments start and end are interpreted as in slice notation.&#10;&#10;Return -1 on failure.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="findall" func="yes">
+			<Overload retVal="" descr="Function of re">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="finditer" func="yes">
+			<Overload retVal="" descr="Function of re">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="float" func="yes">
+			<Overload retVal="" descr="float(x) -&gt; floating point number&#10;&#10;Convert a string or number to a floating point number, if possible.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="flush" func="yes">
+			<Overload retVal="" descr="flush() -&gt; None.  Flush the internal I/O buffer.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="for" />
+		<KeyWord name="fork" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="forkpty" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="format" func="yes">
+			<Overload retVal="" descr="S.format(*args, **kwargs) -&gt; string&#10;&#10;Return a formatted version of S, using substitutions from args and kwargs.&#10;The substitutions are identified by braces ('{' and '}').">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fpathconf" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="from" />
+		<KeyWord name="fromhex" func="yes">
+			<Overload retVal="" descr="float.fromhex(string) -&gt; float&#10;&#10;Create a floating-point number from a hexadecimal string.&#10;&gt;&gt;&gt; float.fromhex('0x1.ffffp10')&#10;2047.984375&#10;&gt;&gt;&gt; float.fromhex('-0x1p-1074')&#10;-4.9406564584124654e-324">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fromkeys" func="yes">
+			<Overload retVal="" descr="dict.fromkeys(S[,v]) -&gt; New dict with keys from S and values equal to v.&#10;v defaults to None.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="frozenset" func="yes">
+			<Overload retVal="" descr="frozenset() -&gt; empty frozenset object&#10;frozenset(iterable) -&gt; frozenset object&#10;&#10;Build an immutable unordered collection of unique elements.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fstat" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fstatvfs" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fsync" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ftruncate" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="get" func="yes">
+			<Overload retVal="" descr="D.get(k[,d]) -&gt; D[k] if k in D, else d.  d defaults to None.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getattr" func="yes">
+			<Overload retVal="" descr="getattr(object, name[, default]) -&gt; value&#10;&#10;Get a named attribute from an object; getattr(x, 'y') is equivalent to x.y.&#10;When a default argument is given, it is returned when the attribute doesn't&#10;exist; without it, an exception is raised in that case.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getcheckinterval" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getcwd" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getcwdu" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getdefaultencoding" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getdlopenflags" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getegid" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getenv" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="geteuid" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getfilesystemencoding" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getgid" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getgroups" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getlogin" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getpgid" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getpgrp" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getpid" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getppid" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getprofile" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getrecursionlimit" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getrefcount" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getsid" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getsizeof" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getter" func="yes">
+			<Overload retVal="" descr="Descriptor to change the getter on a property.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="gettrace" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getuid" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="global" />
+		<KeyWord name="globals" func="yes">
+			<Overload retVal="" descr="globals() -&gt; dictionary&#10;&#10;Return the dictionary containing the current scope's global variables.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="has_key" func="yes">
+			<Overload retVal="" descr="D.has_key(k) -&gt; True if D has a key k, else False">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hasattr" func="yes">
+			<Overload retVal="" descr="hasattr(object, name) -&gt; bool&#10;&#10;Return whether the object has an attribute with the given name.&#10;(This is done by calling getattr(object, name) and catching exceptions.)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hash" func="yes">
+			<Overload retVal="" descr="hash(object) -&gt; integer&#10;&#10;Return a hash value for the object.  Two objects with the same value have&#10;the same hash value.  The reverse is not necessarily true, but likely.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hex" func="yes">
+			<Overload retVal="" descr="float.hex() -&gt; string&#10;&#10;Return a hexadecimal representation of a floating-point number.&#10;&gt;&gt;&gt; (-0.1).hex()&#10;'-0x1.999999999999ap-4'&#10;&gt;&gt;&gt; 3.14159.hex()&#10;'0x1.921f9f01b866ep+1'">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="id" func="yes">
+			<Overload retVal="" descr="id(object) -&gt; integer&#10;&#10;Return the identity of an object.  This is guaranteed to be unique among&#10;simultaneously existing objects.  (Hint: it's the object's memory address.)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="if" />
+		<KeyWord name="import" />
+		<KeyWord name="in" />
+		<KeyWord name="index" func="yes">
+			<Overload retVal="" descr="S.index(sub [,start [,end]]) -&gt; int&#10;&#10;Like S.find() but raise ValueError when the substring is not found.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="indices" func="yes">
+			<Overload retVal="" descr="S.indices(len) -&gt; (start, stop, stride)&#10;&#10;Assuming a sequence of length len, calculate the start and stop&#10;indices, and the stride length of the extended slice described by&#10;S. Out of bounds indices are clipped in a manner consistent with the&#10;handling of normal slices.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="initgroups" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="initlog" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="input" func="yes">
+			<Overload retVal="" descr="input([prompt]) -&gt; value&#10;&#10;Equivalent to eval(raw_input(prompt)).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="insert" func="yes">
+			<Overload retVal="" descr="B.insert(index, int) -&gt; None&#10;&#10;Insert a single item into the bytearray before the given index.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="int" func="yes">
+			<Overload retVal="" descr="int(x=0) -&gt; int or long&#10;int(x, base=10) -&gt; int or long&#10;&#10;Convert a number or string to an integer, or return 0 if no arguments&#10;are given.  If x is floating point, the conversion truncates towards zero.&#10;If x is outside the integer range, the function returns a long instead.&#10;&#10;If x is not a number or if base is given, then x must be a string or&#10;Unicode object representing an integer literal in the given base.  The&#10;literal can be preceded by '+' or '-' and be surrounded by whitespace.&#10;The base defaults to 10.  Valid bases are 0 and 2-36.  Base 0 means to&#10;interpret the base from the string as an integer literal.&#10;&gt;&gt;&gt; int('0b100', base=0)&#10;4">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="intern" func="yes">
+			<Overload retVal="" descr="intern(string) -&gt; string&#10;&#10;``Intern'' the given string.  This enters the string in the (global)&#10;table of interned strings whose purpose is to speed up dictionary lookups.&#10;Return the string itself or the previously interned string object with the&#10;same value.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="intersection" func="yes">
+			<Overload retVal="" descr="Return the intersection of two or more sets as a new set.&#10;&#10;(i.e. elements that are common to all of the sets.)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="intersection_update" func="yes">
+			<Overload retVal="" descr="Update a set with the intersection of itself and another.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="is" />
+		<KeyWord name="is_integer" func="yes">
+			<Overload retVal="" descr="Return True if the float is an integer.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isalnum" func="yes">
+			<Overload retVal="" descr="S.isalnum() -&gt; bool&#10;&#10;Return True if all characters in S are alphanumeric&#10;and there is at least one character in S, False otherwise.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isalpha" func="yes">
+			<Overload retVal="" descr="S.isalpha() -&gt; bool&#10;&#10;Return True if all characters in S are alphabetic&#10;and there is at least one character in S, False otherwise.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isatty" func="yes">
+			<Overload retVal="" descr="isatty() -&gt; true or false.  True if the file is connected to a tty device.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isdecimal" func="yes">
+			<Overload retVal="" descr="S.isdecimal() -&gt; bool&#10;&#10;Return True if there are only decimal characters in S,&#10;False otherwise.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isdigit" func="yes">
+			<Overload retVal="" descr="S.isdigit() -&gt; bool&#10;&#10;Return True if all characters in S are digits&#10;and there is at least one character in S, False otherwise.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isdisjoint" func="yes">
+			<Overload retVal="" descr="Return True if two sets have a null intersection.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isinstance" func="yes">
+			<Overload retVal="" descr="isinstance(object, class-or-type-or-tuple) -&gt; bool&#10;&#10;Return whether an object is an instance of a class or of a subclass thereof.&#10;With a type as second argument, return whether that is the object's type.&#10;The form using a tuple, isinstance(x, (A, B, ...)), is a shortcut for&#10;isinstance(x, A) or isinstance(x, B) or ... (etc.).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="islower" func="yes">
+			<Overload retVal="" descr="S.islower() -&gt; bool&#10;&#10;Return True if all cased characters in S are lowercase and there is&#10;at least one cased character in S, False otherwise.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isnumeric" func="yes">
+			<Overload retVal="" descr="S.isnumeric() -&gt; bool&#10;&#10;Return True if there are only numeric characters in S,&#10;False otherwise.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isspace" func="yes">
+			<Overload retVal="" descr="S.isspace() -&gt; bool&#10;&#10;Return True if all characters in S are whitespace&#10;and there is at least one character in S, False otherwise.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="issubclass" func="yes">
+			<Overload retVal="" descr="issubclass(C, B) -&gt; bool&#10;&#10;Return whether class C is a subclass (i.e., a derived class) of class B.&#10;When using a tuple as the second argument issubclass(X, (A, B, ...)),&#10;is a shortcut for issubclass(X, A) or issubclass(X, B) or ... (etc.).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="issubset" func="yes">
+			<Overload retVal="" descr="Report whether another set contains this set.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="issuperset" func="yes">
+			<Overload retVal="" descr="Report whether this set contains another set.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="istitle" func="yes">
+			<Overload retVal="" descr="S.istitle() -&gt; bool&#10;&#10;Return True if S is a titlecased string and there is at least one&#10;character in S, i.e. uppercase characters may only follow uncased&#10;characters and lowercase characters only cased ones. Return False&#10;otherwise.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isupper" func="yes">
+			<Overload retVal="" descr="S.isupper() -&gt; bool&#10;&#10;Return True if all cased characters in S are uppercase and there is&#10;at least one cased character in S, False otherwise.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="items" func="yes">
+			<Overload retVal="" descr="D.items() -&gt; list of D's (key, value) pairs, as 2-tuples">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="iter" func="yes">
+			<Overload retVal="" descr="iter(collection) -&gt; iterator&#10;iter(callable, sentinel) -&gt; iterator&#10;&#10;Get an iterator from an object.  In the first form, the argument must&#10;supply its own iterator, or be a sequence.&#10;In the second form, the callable is called until it returns the sentinel.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="iteritems" func="yes">
+			<Overload retVal="" descr="D.iteritems() -&gt; an iterator over the (key, value) items of D">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="iterkeys" func="yes">
+			<Overload retVal="" descr="D.iterkeys() -&gt; an iterator over the keys of D">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="itervalues" func="yes">
+			<Overload retVal="" descr="D.itervalues() -&gt; an iterator over the values of D">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="join" func="yes">
+			<Overload retVal="" descr="S.join(iterable) -&gt; unicode&#10;&#10;Return a string which is the concatenation of the strings in the&#10;iterable.  The separator between elements is S.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="keys" func="yes">
+			<Overload retVal="" descr="D.keys() -&gt; list of D's keys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="kill" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="killpg" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="lambda" />
+		<KeyWord name="lchown" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="len" func="yes">
+			<Overload retVal="" descr="len(object) -&gt; integer&#10;&#10;Return the number of items of a sequence or collection.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="link" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="list" func="yes">
+			<Overload retVal="" descr="list() -&gt; new empty list&#10;list(iterable) -&gt; new list initialized from iterable's items">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="list2cmdline" func="yes">
+			<Overload retVal="" descr="Function of subprocess">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="listdir" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ljust" func="yes">
+			<Overload retVal="" descr="S.ljust(width[, fillchar]) -&gt; string&#10;&#10;Return S left-justified in a string of length width. Padding is&#10;done using the specified fill character (default is a space).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="locals" func="yes">
+			<Overload retVal="" descr="locals() -&gt; dictionary&#10;&#10;Update and return a dictionary containing the current scope's local variables.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="log" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="long" func="yes">
+			<Overload retVal="" descr="long(x=0) -&gt; long&#10;long(x, base=10) -&gt; long&#10;&#10;Convert a number or string to a long integer, or return 0L if no arguments&#10;are given.  If x is floating point, the conversion truncates towards zero.&#10;&#10;If x is not a number or if base is given, then x must be a string or&#10;Unicode object representing an integer literal in the given base.  The&#10;literal can be preceded by '+' or '-' and be surrounded by whitespace.&#10;The base defaults to 10.  Valid bases are 0 and 2-36.  Base 0 means to&#10;interpret the base from the string as an integer literal.&#10;&gt;&gt;&gt; int('0b100', base=0)&#10;4L">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="lower" func="yes">
+			<Overload retVal="" descr="S.lower() -&gt; string&#10;&#10;Return a copy of the string S converted to lowercase.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="lseek" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="lstat" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="lstrip" func="yes">
+			<Overload retVal="" descr="S.lstrip([chars]) -&gt; string or unicode&#10;&#10;Return a copy of the string S with leading whitespace removed.&#10;If chars is given and not None, remove characters in chars instead.&#10;If chars is unicode, S will be converted to unicode before stripping">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="major" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="makedev" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="makedirs" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="map" func="yes">
+			<Overload retVal="" descr="map(function, sequence[, sequence, ...]) -&gt; list&#10;&#10;Return a list of the results of applying the function to the items of&#10;the argument sequence(s).  If more than one sequence is given, the&#10;function is called with an argument list consisting of the corresponding&#10;item of each sequence, substituting None for missing values when not all&#10;sequences have the same length.  If the function is None, return a list of&#10;the items of the sequence (or a list of tuples if more than one sequence).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="match" func="yes">
+			<Overload retVal="" descr="Function of re">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="max" func="yes">
+			<Overload retVal="" descr="max(iterable[, key=func]) -&gt; value&#10;max(a, b, c, ...[, key=func]) -&gt; value&#10;&#10;With a single iterable argument, return its largest item.&#10;With two or more arguments, return the largest argument.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="memoryview" func="yes">
+			<Overload retVal="" descr="memoryview(object)&#10;&#10;Create a new memoryview object which references the given object.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="min" func="yes">
+			<Overload retVal="" descr="min(iterable[, key=func]) -&gt; value&#10;min(a, b, c, ...[, key=func]) -&gt; value&#10;&#10;With a single iterable argument, return its smallest item.&#10;With two or more arguments, return the smallest argument.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="minor" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mkdir" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mkfifo" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mknod" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mro" func="yes">
+			<Overload retVal="" descr="mro() -&gt; list&#10;return a type's method resolution order">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="next" func="yes">
+			<Overload retVal="" descr="x.next() -&gt; the next value, or raise StopIteration">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="nice" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="nolog" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="not" />
+		<KeyWord name="object" func="yes">
+			<Overload retVal="" descr="The most base type">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="oct" func="yes">
+			<Overload retVal="" descr="oct(number) -&gt; string&#10;&#10;Return the octal representation of an integer or long integer.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="open" func="yes">
+			<Overload retVal="" descr="open(name[, mode[, buffering]]) -&gt; file object&#10;&#10;Open a file using the file() type, returns a file object.  This is the&#10;preferred way to open a file.  See file.__doc__ for further information.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="openpty" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="or" />
+		<KeyWord name="ord" func="yes">
+			<Overload retVal="" descr="ord(c) -&gt; integer&#10;&#10;Return the integer ordinal of a one-character string.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os" func="yes">
+			<Overload retVal="" descr="OS routines for NT or Posix depending on what system we're on.&#10;&#10;This exports:&#10;  - all functions from posix, nt, os2, or ce, e.g. unlink, stat, etc.&#10;  - os.path is one of the modules posixpath, or ntpath&#10;  - os.name is 'posix', 'nt', 'os2', 'ce' or 'riscos'&#10;  - os.curdir is a string representing the current directory ('.' or ':')&#10;  - os.pardir is a string representing the parent directory ('..' or '::')&#10;  - os.sep is the (or a most common) pathname separator ('/' or ':' or '\\')&#10;  - os.extsep is the extension separator ('.' or '/')&#10;  - os.altsep is the alternate pathname separator (None or '/')&#10;  - os.pathsep is the component separator used in $PATH etc&#10;  - os.linesep is the line separator in text files ('\r' or '\n' or '\r\n')&#10;  - os.defpath is the default search path for executables&#10;  - os.devnull is the file path of the null device ('/dev/null', etc.)&#10;&#10;Programs that import and use 'os' stand a better chance of being&#10;portable between different platforms.  Of course, they must then&#10;only use functions that are defined by all platforms (e.g., unlink&#10;and opendir), and leave all pathname manipulation to os.path&#10;(e.g., split and join).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.EX_CANTCREAT" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.EX_CONFIG" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.EX_DATAERR" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.EX_IOERR" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.EX_NOHOST" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.EX_NOINPUT" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.EX_NOPERM" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.EX_NOUSER" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.EX_OSERR" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.EX_OSFILE" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.EX_PROTOCOL" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.EX_SOFTWARE" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.EX_TEMPFAIL" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.EX_UNAVAILABLE" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.EX_USAGE" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.NGROUPS_MAX" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.O_APPEND" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.O_BINARY" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.O_CREAT" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.O_DIRECT" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.O_DIRECTORY" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.O_DSYNC" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.O_EXCL" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.O_NDELAY" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.O_NOCTTY" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.O_NOFOLLOW" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.O_NONBLOCK" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.O_RDWR" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.O_RSYNC" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.O_SYNC" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.O_TEXT" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.O_TRUNC" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.O_WRONLY" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.P_NOWAIT" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.P_NOWAITO" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.R_OK" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.SEEK_CUR" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.SEEK_END" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.TMP_MAX" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.WCONTINUED" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.WCOREDUMP" func="yes">
+			<Overload retVal="" descr="WCOREDUMP(status) -&gt; bool&#10;&#10;Return True if the process returning 'status' was dumped to a core file.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.WEXITSTATUS" func="yes">
+			<Overload retVal="" descr="WEXITSTATUS(status) -&gt; integer&#10;&#10;Return the process return code from 'status'.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.WIFCONTINUED" func="yes">
+			<Overload retVal="" descr="WIFCONTINUED(status) -&gt; bool&#10;&#10;Return True if the process returning 'status' was continued from a&#10;job control stop.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.WIFEXITED" func="yes">
+			<Overload retVal="" descr="WIFEXITED(status) -&gt; bool&#10;&#10;Return true if the process returning 'status' exited using the exit()&#10;system call.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.WIFSIGNALED" func="yes">
+			<Overload retVal="" descr="WIFSIGNALED(status) -&gt; bool&#10;&#10;Return True if the process returning 'status' was terminated by a signal.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.WIFSTOPPED" func="yes">
+			<Overload retVal="" descr="WIFSTOPPED(status) -&gt; bool&#10;&#10;Return True if the process returning 'status' was stopped.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.WNOHANG" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.WSTOPSIG" func="yes">
+			<Overload retVal="" descr="WSTOPSIG(status) -&gt; integer&#10;&#10;Return the signal that stopped the process that provided&#10;the 'status' value.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.WTERMSIG" func="yes">
+			<Overload retVal="" descr="WTERMSIG(status) -&gt; integer&#10;&#10;Return the signal that terminated the process that provided the 'status'&#10;value.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.WUNTRACED" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.W_OK" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.X_OK" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.abort" func="yes">
+			<Overload retVal="" descr="abort() -&gt; does not return!&#10;&#10;Abort the interpreter immediately.  This 'dumps core' or otherwise fails&#10;in the hardest way possible on the hosting operating system.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.access" func="yes">
+			<Overload retVal="" descr="access(path, mode) -&gt; True if granted, False otherwise&#10;&#10;Use the real uid/gid to test for access to a path.  Note that most&#10;operations will use the effective uid/gid, therefore this routine can&#10;be used in a suid/sgid environment to test if the invoking user has the&#10;specified access to the path.  The mode argument can be F_OK to test&#10;existence, or the inclusive-OR of R_OK, W_OK, and X_OK.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.chdir" func="yes">
+			<Overload retVal="" descr="chdir(path)&#10;&#10;Change the current working directory to the specified path.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.chmod" func="yes">
+			<Overload retVal="" descr="chmod(path, mode)&#10;&#10;Change the access permissions of a file.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.chown" func="yes">
+			<Overload retVal="" descr="chown(path, uid, gid)&#10;&#10;Change the owner and group id of path to the numeric uid and gid.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.chroot" func="yes">
+			<Overload retVal="" descr="chroot(path)&#10;&#10;Change root directory to path.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.close" func="yes">
+			<Overload retVal="" descr="close(fd)&#10;&#10;Close a file descriptor (for low level IO).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.closerange" func="yes">
+			<Overload retVal="" descr="closerange(fd_low, fd_high)&#10;&#10;Closes all file descriptors in [fd_low, fd_high), ignoring errors.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.confstr" func="yes">
+			<Overload retVal="" descr="confstr(name) -&gt; string&#10;&#10;Return a string-valued system configuration variable.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.confstr_names" func="yes">
+			<Overload retVal="" descr="(dict)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.ctermid" func="yes">
+			<Overload retVal="" descr="ctermid() -&gt; string&#10;&#10;Return the name of the controlling terminal for this process.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.curdir" func="yes">
+			<Overload retVal="" descr="(str)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.defpath" func="yes">
+			<Overload retVal="" descr="(str)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.devnull" func="yes">
+			<Overload retVal="" descr="(str)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.dup" func="yes">
+			<Overload retVal="" descr="dup(fd) -&gt; fd2&#10;&#10;Return a duplicate of a file descriptor.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.dup2" func="yes">
+			<Overload retVal="" descr="dup2(old_fd, new_fd)&#10;&#10;Duplicate file descriptor.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.environ" func="yes">
+			<Overload retVal="" descr="(instance)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.error" func="yes">
+			<Overload retVal="" descr="OS system call failed.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.error.args" func="yes">
+			<Overload retVal="" descr="(getset_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.error.errno" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.error.filename" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.error.message" func="yes">
+			<Overload retVal="" descr="(getset_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.error.strerror" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.execl" func="yes">
+			<Overload retVal="" descr="execl(file, *args)&#10;&#10;Execute the executable file with argument list args, replacing the&#10;current process.">
+				<Param name="file" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.execle" func="yes">
+			<Overload retVal="" descr="execle(file, *args, env)&#10;&#10;Execute the executable file with argument list args and&#10;environment env, replacing the current process.">
+				<Param name="file" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.execlp" func="yes">
+			<Overload retVal="" descr="execlp(file, *args)&#10;&#10;Execute the executable file (which is searched for along $PATH)&#10;with argument list args, replacing the current process.">
+				<Param name="file" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.execlpe" func="yes">
+			<Overload retVal="" descr="execlpe(file, *args, env)&#10;&#10;Execute the executable file (which is searched for along $PATH)&#10;with argument list args and environment env, replacing the current&#10;process.">
+				<Param name="file" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.execv" func="yes">
+			<Overload retVal="" descr="execv(path, args)&#10;&#10;Execute an executable path with arguments, replacing current process.&#10;&#10;    path: path of executable file&#10;    args: tuple or list of strings">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.execve" func="yes">
+			<Overload retVal="" descr="execve(path, args, env)&#10;&#10;Execute a path with arguments and environment, replacing current process.&#10;&#10;    path: path of executable file&#10;    args: tuple or list of arguments&#10;    env: dictionary of strings mapping to strings">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.execvp" func="yes">
+			<Overload retVal="" descr="execvp(file, args)&#10;&#10;Execute the executable file (which is searched for along $PATH)&#10;with argument list args, replacing the current process.&#10;args may be a list or tuple of strings.">
+				<Param name="file" />
+				<Param name="args" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.execvpe" func="yes">
+			<Overload retVal="" descr="execvpe(file, args, env)&#10;&#10;Execute the executable file (which is searched for along $PATH)&#10;with argument list args and environment env , replacing the&#10;current process.&#10;args may be a list or tuple of strings.">
+				<Param name="file" />
+				<Param name="args" />
+				<Param name="env" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.extsep" func="yes">
+			<Overload retVal="" descr="(str)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.fchdir" func="yes">
+			<Overload retVal="" descr="fchdir(fildes)&#10;&#10;Change to the directory of the given file descriptor.  fildes must be&#10;opened on a directory, not a file.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.fchmod" func="yes">
+			<Overload retVal="" descr="fchmod(fd, mode)&#10;&#10;Change the access permissions of the file given by file&#10;descriptor fd.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.fchown" func="yes">
+			<Overload retVal="" descr="fchown(fd, uid, gid)&#10;&#10;Change the owner and group id of the file given by file descriptor&#10;fd to the numeric uid and gid.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.fdatasync" func="yes">
+			<Overload retVal="" descr="fdatasync(fildes)&#10;&#10;force write of file with filedescriptor to disk.&#10; does not force update of metadata.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.fdopen" func="yes">
+			<Overload retVal="" descr="fdopen(fd [, mode='r' [, bufsize]]) -&gt; file_object&#10;&#10;Return an open file object connected to a file descriptor.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.fork" func="yes">
+			<Overload retVal="" descr="fork() -&gt; pid&#10;&#10;Fork a child process.&#10;Return 0 to child process and PID of child to parent process.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.forkpty" func="yes">
+			<Overload retVal="" descr="forkpty() -&gt; (pid, master_fd)&#10;&#10;Fork a new process with a new pseudo-terminal as controlling tty.&#10;&#10;Like fork(), return 0 as pid to child process, and PID of child to parent.&#10;To both, return fd of newly opened pseudo-terminal.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.fpathconf" func="yes">
+			<Overload retVal="" descr="fpathconf(fd, name) -&gt; integer&#10;&#10;Return the configuration limit name for the file descriptor fd.&#10;If there is no limit, return -1.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.fstat" func="yes">
+			<Overload retVal="" descr="fstat(fd) -&gt; stat result&#10;&#10;Like stat(), but for an open file descriptor.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.fstatvfs" func="yes">
+			<Overload retVal="" descr="fstatvfs(fd) -&gt; statvfs result&#10;&#10;Perform an fstatvfs system call on the given fd.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.fsync" func="yes">
+			<Overload retVal="" descr="fsync(fildes)&#10;&#10;force write of file with filedescriptor to disk.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.ftruncate" func="yes">
+			<Overload retVal="" descr="ftruncate(fd, length)&#10;&#10;Truncate a file to a specified length.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.getcwd" func="yes">
+			<Overload retVal="" descr="getcwd() -&gt; path&#10;&#10;Return a string representing the current working directory.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.getcwdu" func="yes">
+			<Overload retVal="" descr="getcwdu() -&gt; path&#10;&#10;Return a unicode string representing the current working directory.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.getegid" func="yes">
+			<Overload retVal="" descr="getegid() -&gt; egid&#10;&#10;Return the current process's effective group id.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.getenv" func="yes">
+			<Overload retVal="" descr="Get an environment variable, return None if it doesn't exist.&#10;The optional second argument can specify an alternate default.">
+				<Param name="key" />
+				<Param name="[default=None]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.geteuid" func="yes">
+			<Overload retVal="" descr="geteuid() -&gt; euid&#10;&#10;Return the current process's effective user id.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.getgid" func="yes">
+			<Overload retVal="" descr="getgid() -&gt; gid&#10;&#10;Return the current process's group id.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.getgroups" func="yes">
+			<Overload retVal="" descr="getgroups() -&gt; list of group IDs&#10;&#10;Return list of supplemental group IDs for the process.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.getlogin" func="yes">
+			<Overload retVal="" descr="getlogin() -&gt; string&#10;&#10;Return the actual login name.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.getpgid" func="yes">
+			<Overload retVal="" descr="getpgid(pid) -&gt; pgid&#10;&#10;Call the system call getpgid().">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.getpgrp" func="yes">
+			<Overload retVal="" descr="getpgrp() -&gt; pgrp&#10;&#10;Return the current process group id.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.getpid" func="yes">
+			<Overload retVal="" descr="getpid() -&gt; pid&#10;&#10;Return the current process id">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.getppid" func="yes">
+			<Overload retVal="" descr="getppid() -&gt; ppid&#10;&#10;Return the parent's process id.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.getsid" func="yes">
+			<Overload retVal="" descr="getsid(pid) -&gt; sid&#10;&#10;Call the system call getsid().">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.getuid" func="yes">
+			<Overload retVal="" descr="getuid() -&gt; uid&#10;&#10;Return the current process's user id.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.initgroups" func="yes">
+			<Overload retVal="" descr="initgroups(username, gid) -&gt; None&#10;&#10;Call the system initgroups() to initialize the group access list with all of&#10;the groups of which the specified username is a member, plus the specified&#10;group id.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.isatty" func="yes">
+			<Overload retVal="" descr="isatty(fd) -&gt; bool&#10;&#10;Return True if the file descriptor 'fd' is an open file descriptor&#10;connected to the slave end of a terminal.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.kill" func="yes">
+			<Overload retVal="" descr="kill(pid, sig)&#10;&#10;Kill a process with a signal.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.killpg" func="yes">
+			<Overload retVal="" descr="killpg(pgid, sig)&#10;&#10;Kill a process group with a signal.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.lchown" func="yes">
+			<Overload retVal="" descr="lchown(path, uid, gid)&#10;&#10;Change the owner and group id of path to the numeric uid and gid.&#10;This function will not follow symbolic links.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.linesep" func="yes">
+			<Overload retVal="" descr="(str)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.link" func="yes">
+			<Overload retVal="" descr="link(src, dst)&#10;&#10;Create a hard link to a file.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.listdir" func="yes">
+			<Overload retVal="" descr="listdir(path) -&gt; list_of_strings&#10;&#10;Return a list containing the names of the entries in the directory.&#10;&#10;    path: path of directory to list&#10;&#10;The list is in arbitrary order.  It does not include the special&#10;entries '.' and '..' even if they are present in the directory.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.lseek" func="yes">
+			<Overload retVal="" descr="lseek(fd, pos, how) -&gt; newpos&#10;&#10;Set the current position of a file descriptor.&#10;Return the new cursor position in bytes, starting from the beginning.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.lstat" func="yes">
+			<Overload retVal="" descr="lstat(path) -&gt; stat result&#10;&#10;Like stat(path), but do not follow symbolic links.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.major" func="yes">
+			<Overload retVal="" descr="major(device) -&gt; major number&#10;Extracts a device major number from a raw device number.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.makedev" func="yes">
+			<Overload retVal="" descr="makedev(major, minor) -&gt; device number&#10;Composes a raw device number from the major and minor device numbers.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.makedirs" func="yes">
+			<Overload retVal="" descr="makedirs(path [, mode=0777])&#10;&#10;Super-mkdir; create a leaf directory and all intermediate ones.&#10;Works like mkdir, except that any intermediate path segment (not&#10;just the rightmost) will be created if it does not exist.  This is&#10;recursive.">
+				<Param name="name" />
+				<Param name="[mode=511]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.minor" func="yes">
+			<Overload retVal="" descr="minor(device) -&gt; minor number&#10;Extracts a device minor number from a raw device number.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.mkdir" func="yes">
+			<Overload retVal="" descr="mkdir(path [, mode=0777])&#10;&#10;Create a directory.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.mkfifo" func="yes">
+			<Overload retVal="" descr="mkfifo(filename [, mode=0666])&#10;&#10;Create a FIFO (a POSIX named pipe).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.mknod" func="yes">
+			<Overload retVal="" descr="mknod(filename [, mode=0600, device])&#10;&#10;Create a filesystem node (file, device special file or named pipe)&#10;named filename. mode specifies both the permissions to use and the&#10;type of node to be created, being combined (bitwise OR) with one of&#10;S_IFREG, S_IFCHR, S_IFBLK, and S_IFIFO. For S_IFCHR and S_IFBLK,&#10;device defines the newly created device special file (probably using&#10;os.makedev()), otherwise it is ignored.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.name" func="yes">
+			<Overload retVal="" descr="(str)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.nice" func="yes">
+			<Overload retVal="" descr="nice(inc) -&gt; new_priority&#10;&#10;Decrease the priority of process by inc and return the new priority.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.open" func="yes">
+			<Overload retVal="" descr="open(filename, flag [, mode=0777]) -&gt; fd&#10;&#10;Open a file (for low level IO).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.openpty" func="yes">
+			<Overload retVal="" descr="openpty() -&gt; (master_fd, slave_fd)&#10;&#10;Open a pseudo-terminal, returning open fd's for both master and slave end.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.pardir" func="yes">
+			<Overload retVal="" descr="(str)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.pathconf" func="yes">
+			<Overload retVal="" descr="pathconf(path, name) -&gt; integer&#10;&#10;Return the configuration limit name for the file or directory path.&#10;If there is no limit, return -1.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.pathconf_names" func="yes">
+			<Overload retVal="" descr="(dict)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.pathsep" func="yes">
+			<Overload retVal="" descr="(str)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.pipe" func="yes">
+			<Overload retVal="" descr="pipe() -&gt; (read_end, write_end)&#10;&#10;Create a pipe.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.popen" func="yes">
+			<Overload retVal="" descr="popen(command [, mode='r' [, bufsize]]) -&gt; pipe&#10;&#10;Open a pipe to/from a command returning a file object.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.popen2" func="yes">
+			<Overload retVal="" descr="Execute the shell command 'cmd' in a sub-process.  On UNIX, 'cmd'&#10;may be a sequence, in which case arguments will be passed directly to&#10;the program without shell intervention (as with os.spawnv()).  If 'cmd'&#10;is a string it will be passed to the shell (as with os.system()). If&#10;'bufsize' is specified, it sets the buffer size for the I/O pipes.  The&#10;file objects (child_stdin, child_stdout) are returned.">
+				<Param name="cmd" />
+				<Param name="[mode=t" />
+				<Param name="[bufsize=-1]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.popen3" func="yes">
+			<Overload retVal="" descr="Execute the shell command 'cmd' in a sub-process.  On UNIX, 'cmd'&#10;may be a sequence, in which case arguments will be passed directly to&#10;the program without shell intervention (as with os.spawnv()).  If 'cmd'&#10;is a string it will be passed to the shell (as with os.system()). If&#10;'bufsize' is specified, it sets the buffer size for the I/O pipes.  The&#10;file objects (child_stdin, child_stdout, child_stderr) are returned.">
+				<Param name="cmd" />
+				<Param name="[mode=t" />
+				<Param name="[bufsize=-1]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.popen4" func="yes">
+			<Overload retVal="" descr="Execute the shell command 'cmd' in a sub-process.  On UNIX, 'cmd'&#10;may be a sequence, in which case arguments will be passed directly to&#10;the program without shell intervention (as with os.spawnv()).  If 'cmd'&#10;is a string it will be passed to the shell (as with os.system()). If&#10;'bufsize' is specified, it sets the buffer size for the I/O pipes.  The&#10;file objects (child_stdin, child_stdout_stderr) are returned.">
+				<Param name="cmd" />
+				<Param name="[mode=t" />
+				<Param name="[bufsize=-1]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.putenv" func="yes">
+			<Overload retVal="" descr="putenv(key, value)&#10;&#10;Change or add an environment variable.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.read" func="yes">
+			<Overload retVal="" descr="read(fd, buffersize) -&gt; string&#10;&#10;Read a file descriptor.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.readlink" func="yes">
+			<Overload retVal="" descr="readlink(path) -&gt; path&#10;&#10;Return a string representing the path to which the symbolic link points.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.remove" func="yes">
+			<Overload retVal="" descr="remove(path)&#10;&#10;Remove a file (same as unlink(path)).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.removedirs" func="yes">
+			<Overload retVal="" descr="removedirs(path)&#10;&#10;Super-rmdir; remove a leaf directory and all empty intermediate&#10;ones.  Works like rmdir except that, if the leaf directory is&#10;successfully removed, directories corresponding to rightmost path&#10;segments will be pruned away until either the whole path is&#10;consumed or an error occurs.  Errors during this latter phase are&#10;ignored -- they generally mean that a directory was not empty.">
+				<Param name="name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.rename" func="yes">
+			<Overload retVal="" descr="rename(old, new)&#10;&#10;Rename a file or directory.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.renames" func="yes">
+			<Overload retVal="" descr="renames(old, new)&#10;&#10;Super-rename; create directories as necessary and delete any left&#10;empty.  Works like rename, except creation of any intermediate&#10;directories needed to make the new pathname good is attempted&#10;first.  After the rename, directories corresponding to rightmost&#10;path segments of the old name will be pruned until either the&#10;whole path is consumed or a nonempty directory is found.&#10;&#10;Note: this function can fail with the new directory structure made&#10;if you lack permissions needed to unlink the leaf directory or&#10;file.">
+				<Param name="old" />
+				<Param name="new" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.rmdir" func="yes">
+			<Overload retVal="" descr="rmdir(path)&#10;&#10;Remove a directory.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.sep" func="yes">
+			<Overload retVal="" descr="(str)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.setegid" func="yes">
+			<Overload retVal="" descr="setegid(gid)&#10;&#10;Set the current process's effective group id.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.seteuid" func="yes">
+			<Overload retVal="" descr="seteuid(uid)&#10;&#10;Set the current process's effective user id.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.setgid" func="yes">
+			<Overload retVal="" descr="setgid(gid)&#10;&#10;Set the current process's group id.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.setgroups" func="yes">
+			<Overload retVal="" descr="setgroups(list)&#10;&#10;Set the groups of the current process to list.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.setpgid" func="yes">
+			<Overload retVal="" descr="setpgid(pid, pgrp)&#10;&#10;Call the system call setpgid().">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.setpgrp" func="yes">
+			<Overload retVal="" descr="setpgrp()&#10;&#10;Make this process the process group leader.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.setregid" func="yes">
+			<Overload retVal="" descr="setregid(rgid, egid)&#10;&#10;Set the current process's real and effective group ids.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.setreuid" func="yes">
+			<Overload retVal="" descr="setreuid(ruid, euid)&#10;&#10;Set the current process's real and effective user ids.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.setsid" func="yes">
+			<Overload retVal="" descr="setsid()&#10;&#10;Call the system call setsid().">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.setuid" func="yes">
+			<Overload retVal="" descr="setuid(uid)&#10;&#10;Set the current process's user id.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.spawnl" func="yes">
+			<Overload retVal="" descr="spawnl(mode, file, *args) -&gt; integer&#10;&#10;Execute file with arguments from args in a subprocess.&#10;If mode == P_NOWAIT return the pid of the process.&#10;If mode == P_WAIT return the process's exit code if it exits normally;&#10;otherwise return -SIG, where SIG is the signal that killed it.">
+				<Param name="mode" />
+				<Param name="file" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.spawnle" func="yes">
+			<Overload retVal="" descr="spawnle(mode, file, *args, env) -&gt; integer&#10;&#10;Execute file with arguments from args in a subprocess with the&#10;supplied environment.&#10;If mode == P_NOWAIT return the pid of the process.&#10;If mode == P_WAIT return the process's exit code if it exits normally;&#10;otherwise return -SIG, where SIG is the signal that killed it.">
+				<Param name="mode" />
+				<Param name="file" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.spawnlp" func="yes">
+			<Overload retVal="" descr="spawnlp(mode, file, *args) -&gt; integer&#10;&#10;Execute file (which is looked for along $PATH) with arguments from&#10;args in a subprocess with the supplied environment.&#10;If mode == P_NOWAIT return the pid of the process.&#10;If mode == P_WAIT return the process's exit code if it exits normally;&#10;otherwise return -SIG, where SIG is the signal that killed it.">
+				<Param name="mode" />
+				<Param name="file" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.spawnlpe" func="yes">
+			<Overload retVal="" descr="spawnlpe(mode, file, *args, env) -&gt; integer&#10;&#10;Execute file (which is looked for along $PATH) with arguments from&#10;args in a subprocess with the supplied environment.&#10;If mode == P_NOWAIT return the pid of the process.&#10;If mode == P_WAIT return the process's exit code if it exits normally;&#10;otherwise return -SIG, where SIG is the signal that killed it.">
+				<Param name="mode" />
+				<Param name="file" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.spawnv" func="yes">
+			<Overload retVal="" descr="spawnv(mode, file, args) -&gt; integer&#10;&#10;Execute file with arguments from args in a subprocess.&#10;If mode == P_NOWAIT return the pid of the process.&#10;If mode == P_WAIT return the process's exit code if it exits normally;&#10;otherwise return -SIG, where SIG is the signal that killed it.">
+				<Param name="mode" />
+				<Param name="file" />
+				<Param name="args" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.spawnve" func="yes">
+			<Overload retVal="" descr="spawnve(mode, file, args, env) -&gt; integer&#10;&#10;Execute file with arguments from args in a subprocess with the&#10;specified environment.&#10;If mode == P_NOWAIT return the pid of the process.&#10;If mode == P_WAIT return the process's exit code if it exits normally;&#10;otherwise return -SIG, where SIG is the signal that killed it.">
+				<Param name="mode" />
+				<Param name="file" />
+				<Param name="args" />
+				<Param name="env" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.spawnvp" func="yes">
+			<Overload retVal="" descr="spawnvp(mode, file, args) -&gt; integer&#10;&#10;Execute file (which is looked for along $PATH) with arguments from&#10;args in a subprocess.&#10;If mode == P_NOWAIT return the pid of the process.&#10;If mode == P_WAIT return the process's exit code if it exits normally;&#10;otherwise return -SIG, where SIG is the signal that killed it.">
+				<Param name="mode" />
+				<Param name="file" />
+				<Param name="args" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.spawnvpe" func="yes">
+			<Overload retVal="" descr="spawnvpe(mode, file, args, env) -&gt; integer&#10;&#10;Execute file (which is looked for along $PATH) with arguments from&#10;args in a subprocess with the supplied environment.&#10;If mode == P_NOWAIT return the pid of the process.&#10;If mode == P_WAIT return the process's exit code if it exits normally;&#10;otherwise return -SIG, where SIG is the signal that killed it.">
+				<Param name="mode" />
+				<Param name="file" />
+				<Param name="args" />
+				<Param name="env" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat" func="yes">
+			<Overload retVal="" descr="stat(path) -&gt; stat result&#10;&#10;Perform a stat system call on the given path.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_float_times" func="yes">
+			<Overload retVal="" descr="stat_float_times([newval]) -&gt; oldval&#10;&#10;Determine whether os.[lf]stat represents time stamps as float objects.&#10;If newval is True, future calls to stat() return floats, if it is False,&#10;future calls return ints. &#10;If newval is omitted, return the current setting.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_result" func="yes">
+			<Overload retVal="" descr="stat_result: Result from stat or lstat.&#10;&#10;This object may be accessed either as a tuple of&#10;  (mode, ino, dev, nlink, uid, gid, size, atime, mtime, ctime)&#10;or via the attributes st_mode, st_ino, st_dev, st_nlink, st_uid, and so on.&#10;&#10;Posix/windows: If your platform supports st_blksize, st_blocks, st_rdev,&#10;or st_flags, they are available as attributes only.&#10;&#10;See os.stat for more information.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_result.n_fields" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_result.n_sequence_fields" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_result.n_unnamed_fields" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_result.st_atime" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_result.st_birthtime" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_result.st_blksize" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_result.st_blocks" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_result.st_ctime" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_result.st_dev" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_result.st_gid" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_result.st_ino" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_result.st_mode" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_result.st_mtime" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_result.st_nlink" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_result.st_rdev" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_result.st_size" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.stat_result.st_uid" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.statvfs" func="yes">
+			<Overload retVal="" descr="statvfs(path) -&gt; statvfs result&#10;&#10;Perform a statvfs system call on the given path.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.statvfs_result" func="yes">
+			<Overload retVal="" descr="statvfs_result: Result from statvfs or fstatvfs.&#10;&#10;This object may be accessed either as a tuple of&#10;  (bsize, frsize, blocks, bfree, bavail, files, ffree, favail, flag, namemax),&#10;or via the attributes f_bsize, f_frsize, f_blocks, f_bfree, and so on.&#10;&#10;See os.statvfs for more information.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.statvfs_result.f_bavail" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.statvfs_result.f_bfree" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.statvfs_result.f_blocks" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.statvfs_result.f_bsize" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.statvfs_result.f_favail" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.statvfs_result.f_ffree" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.statvfs_result.f_files" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.statvfs_result.f_flag" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.statvfs_result.f_frsize" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.statvfs_result.f_namemax" func="yes">
+			<Overload retVal="" descr="(member_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.statvfs_result.n_fields" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.statvfs_result.n_sequence_fields" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.strerror" func="yes">
+			<Overload retVal="" descr="strerror(code) -&gt; string&#10;&#10;Translate an error code to a message string.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.symlink" func="yes">
+			<Overload retVal="" descr="symlink(src, dst)&#10;&#10;Create a symbolic link pointing to src named dst.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.sysconf" func="yes">
+			<Overload retVal="" descr="sysconf(name) -&gt; integer&#10;&#10;Return an integer-valued system configuration variable.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.sysconf_names" func="yes">
+			<Overload retVal="" descr="(dict)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.system" func="yes">
+			<Overload retVal="" descr="system(command) -&gt; exit_status&#10;&#10;Execute the command (a string) in a subshell.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.tcgetpgrp" func="yes">
+			<Overload retVal="" descr="tcgetpgrp(fd) -&gt; pgid&#10;&#10;Return the process group associated with the terminal given by a fd.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.tcsetpgrp" func="yes">
+			<Overload retVal="" descr="tcsetpgrp(fd, pgid)&#10;&#10;Set the process group associated with the terminal given by a fd.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.tempnam" func="yes">
+			<Overload retVal="" descr="tempnam([dir[, prefix]]) -&gt; string&#10;&#10;Return a unique name for a temporary file.&#10;The directory and a prefix may be specified as strings; they may be omitted&#10;or None if not needed.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.times" func="yes">
+			<Overload retVal="" descr="times() -&gt; (utime, stime, cutime, cstime, elapsed_time)&#10;&#10;Return a tuple of floating point numbers indicating process times.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.tmpfile" func="yes">
+			<Overload retVal="" descr="tmpfile() -&gt; file object&#10;&#10;Create a temporary file with no directory entries.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.tmpnam" func="yes">
+			<Overload retVal="" descr="tmpnam() -&gt; string&#10;&#10;Return a unique name for a temporary file.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.ttyname" func="yes">
+			<Overload retVal="" descr="ttyname(fd) -&gt; string&#10;&#10;Return the name of the terminal device connected to 'fd'.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.umask" func="yes">
+			<Overload retVal="" descr="umask(new_mask) -&gt; old_mask&#10;&#10;Set the current numeric umask and return the previous umask.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.uname" func="yes">
+			<Overload retVal="" descr="uname() -&gt; (sysname, nodename, release, version, machine)&#10;&#10;Return a tuple identifying the current operating system.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.unlink" func="yes">
+			<Overload retVal="" descr="unlink(path)&#10;&#10;Remove a file (same as remove(path)).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.unsetenv" func="yes">
+			<Overload retVal="" descr="unsetenv(key)&#10;&#10;Delete an environment variable.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.urandom" func="yes">
+			<Overload retVal="" descr="urandom(n) -&gt; str&#10;&#10;Return n random bytes suitable for cryptographic use.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.utime" func="yes">
+			<Overload retVal="" descr="utime(path, (atime, mtime))&#10;utime(path, None)&#10;&#10;Set the access and modified time of the file to the given values.  If the&#10;second form is used, set the access and modified times to the current time.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.wait" func="yes">
+			<Overload retVal="" descr="wait() -&gt; (pid, status)&#10;&#10;Wait for completion of a child process.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.wait3" func="yes">
+			<Overload retVal="" descr="wait3(options) -&gt; (pid, status, rusage)&#10;&#10;Wait for completion of a child process.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.wait4" func="yes">
+			<Overload retVal="" descr="wait4(pid, options) -&gt; (pid, status, rusage)&#10;&#10;Wait for completion of a given child process.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.waitpid" func="yes">
+			<Overload retVal="" descr="waitpid(pid, options) -&gt; (pid, status)&#10;&#10;Wait for completion of a given child process.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.walk" func="yes">
+			<Overload retVal="" descr="Directory tree generator.&#10;&#10;For each directory in the directory tree rooted at top (including top&#10;itself, but excluding '.' and '..'), yields a 3-tuple&#10;&#10;    dirpath, dirnames, filenames&#10;&#10;dirpath is a string, the path to the directory.  dirnames is a list of&#10;the names of the subdirectories in dirpath (excluding '.' and '..').&#10;filenames is a list of the names of the non-directory files in dirpath.&#10;Note that the names in the lists are just names, with no path components.&#10;To get a full path (which begins with top) to a file or directory in&#10;dirpath, do os.path.join(dirpath, name).&#10;&#10;If optional arg 'topdown' is true or not specified, the triple for a&#10;directory is generated before the triples for any of its subdirectories&#10;(directories are generated top down).  If topdown is false, the triple&#10;for a directory is generated after the triples for all of its&#10;subdirectories (directories are generated bottom up).&#10;&#10;When topdown is true, the caller can modify the dirnames list in-place&#10;(e.g., via del or slice assignment), and walk will only recurse into the&#10;subdirectories whose names remain in dirnames; this can be used to prune the&#10;search, or to impose a specific order of visiting.  Modifying dirnames when&#10;topdown is false is ineffective, since the directories in dirnames have&#10;already been generated by the time dirnames itself is generated. No matter&#10;the value of topdown, the list of subdirectories is retrieved before the&#10;tuples for the directory and its subdirectories are generated.&#10;&#10;By default errors from the os.listdir() call are ignored.  If&#10;optional arg 'onerror' is specified, it should be a function; it&#10;will be called with one argument, an os.error instance.  It can&#10;report the error to continue with the walk, or raise the exception&#10;to abort the walk.  Note that the filename is available as the&#10;filename attribute of the exception object.&#10;&#10;By default, os.walk does not follow symbolic links to subdirectories on&#10;systems that support them.  In order to get this functionality, set the&#10;optional argument 'followlinks' to true.&#10;&#10;Caution:  if you pass a relative pathname for top, don't change the&#10;current working directory between resumptions of walk.  walk never&#10;changes the current directory, and assumes that the client doesn't&#10;either.&#10;&#10;Example:&#10;&#10;import os&#10;from os.path import join, getsize&#10;for root, dirs, files in os.walk('python/Lib/email'):&#10;    print root, &quot;consumes&quot;,&#10;    print sum([getsize(join(root, name)) for name in files]),&#10;    print &quot;bytes in&quot;, len(files), &quot;non-directory files&quot;&#10;    if 'CVS' in dirs:&#10;        dirs.remove('CVS')  # don't visit CVS directories">
+				<Param name="top" />
+				<Param name="[topdown=True" />
+				<Param name="[onerror=None" />
+				<Param name="[followlinks=False]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="os.write" func="yes">
+			<Overload retVal="" descr="write(fd, string) -&gt; byteswritten&#10;&#10;Write a string to a file descriptor.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="parse" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="parse_header" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="parse_multipart" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="parse_qs" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="parse_qsl" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="partition" func="yes">
+			<Overload retVal="" descr="S.partition(sep) -&gt; (head, sep, tail)&#10;&#10;Search for the separator sep in S, and return the part before it,&#10;the separator itself, and the part after it.  If the separator is not&#10;found, return S and two empty strings.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pass" />
+		<KeyWord name="pathconf" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pipe" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pipe_cloexec" func="yes">
+			<Overload retVal="" descr="Function of subprocess.Popen">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="poll" func="yes">
+			<Overload retVal="" descr="Function of subprocess.Popen">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pop" func="yes">
+			<Overload retVal="" descr="L.pop([index]) -&gt; item -- remove and return item at index (default last).&#10;Raises IndexError if list is empty or index is out of range.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popen" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popen2" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popen3" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popen4" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popitem" func="yes">
+			<Overload retVal="" descr="D.popitem() -&gt; (k, v), remove and return some (key, value) pair as a&#10;2-tuple; but raise KeyError if D is empty.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pow" func="yes">
+			<Overload retVal="" descr="pow(x, y[, z]) -&gt; number&#10;&#10;With two arguments, equivalent to x**y.  With three arguments,&#10;equivalent to (x**y) % z, but may be more efficient (e.g. for longs).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="print" />
+		<KeyWord name="print_arguments" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="print_directory" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="print_environ" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="print_environ_usage" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="print_exception" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="print_form" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="property" func="yes">
+			<Overload retVal="" descr="property(fget=None, fset=None, fdel=None, doc=None) -&gt; property attribute&#10;&#10;fget is a function to be used for getting an attribute value, and likewise&#10;fset is a function for setting, and fdel a function for del'ing, an&#10;attribute.  Typical use is to define a managed attribute x:&#10;&#10;class C(object):&#10;    def getx(self): return self._x&#10;    def setx(self, value): self._x = value&#10;    def delx(self): del self._x&#10;    x = property(getx, setx, delx, &quot;I'm the 'x' property.&quot;)&#10;&#10;Decorators make defining new properties or modifying existing ones easy:&#10;&#10;class C(object):&#10;    @property&#10;    def x(self):&#10;        &quot;I am the 'x' property.&quot;&#10;        return self._x&#10;    @x.setter&#10;    def x(self, value):&#10;        self._x = value&#10;    @x.deleter&#10;    def x(self):&#10;        del self._x">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="purge" func="yes">
+			<Overload retVal="" descr="Function of re">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="putenv" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="raise" />
+		<KeyWord name="range" func="yes">
+			<Overload retVal="" descr="range(stop) -&gt; list of integers&#10;range(start, stop[, step]) -&gt; list of integers&#10;&#10;Return a list containing an arithmetic progression of integers.&#10;range(i, j) returns [i, i+1, i+2, ..., j-1]; start (!) defaults to 0.&#10;When step is given, it specifies the increment (or decrement).&#10;For example, range(4) returns [0, 1, 2, 3].  The end point is omitted!&#10;These are exactly the valid indices for a list of 4 elements.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="raw_input" func="yes">
+			<Overload retVal="" descr="raw_input([prompt]) -&gt; string&#10;&#10;Read a string from standard input.  The trailing newline is stripped.&#10;If the user hits EOF (Unix: Ctl-D, Windows: Ctl-Z+Return), raise EOFError.&#10;On Unix, GNU readline is used if enabled.  The prompt string, if given,&#10;is printed without a trailing newline before reading.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re" func="yes">
+			<Overload retVal="" descr="Support for regular expressions (RE).&#10;&#10;This module provides regular expression matching operations similar to&#10;those found in Perl.  It supports both 8-bit and Unicode strings; both&#10;the pattern and the strings being processed can contain null bytes and&#10;characters outside the US ASCII range.&#10;&#10;Regular expressions can contain both special and ordinary characters.&#10;Most ordinary characters, like &quot;A&quot;, &quot;a&quot;, or &quot;0&quot;, are the simplest&#10;regular expressions; they simply match themselves.  You can&#10;concatenate ordinary characters, so last matches the string 'last'.&#10;&#10;The special characters are:&#10;    &quot;.&quot;      Matches any character except a newline.&#10;    &quot;^&quot;      Matches the start of the string.&#10;    &quot;$&quot;      Matches the end of the string or just before the newline at&#10;             the end of the string.&#10;    &quot;*&quot;      Matches 0 or more (greedy) repetitions of the preceding RE.&#10;             Greedy means that it will match as many repetitions as possible.&#10;    &quot;+&quot;      Matches 1 or more (greedy) repetitions of the preceding RE.&#10;    &quot;?&quot;      Matches 0 or 1 (greedy) of the preceding RE.&#10;    *?,+?,?? Non-greedy versions of the previous three special characters.&#10;    {m,n}    Matches from m to n repetitions of the preceding RE.&#10;    {m,n}?   Non-greedy version of the above.&#10;    &quot;\\&quot;     Either escapes special characters or signals a special sequence.&#10;    []       Indicates a set of characters.&#10;             A &quot;^&quot; as the first character indicates a complementing set.&#10;    &quot;|&quot;      A|B, creates an RE that will match either A or B.&#10;    (...)    Matches the RE inside the parentheses.&#10;             The contents can be retrieved or matched later in the string.&#10;    (?iLmsux) Set the I, L, M, S, U, or X flag for the RE (see below).&#10;    (?:...)  Non-grouping version of regular parentheses.&#10;    (?P&lt;name&gt;...) The substring matched by the group is accessible by name.&#10;    (?P=name)     Matches the text matched earlier by the group named name.&#10;    (?#...)  A comment; ignored.&#10;    (?=...)  Matches if ... matches next, but doesn't consume the string.&#10;    (?!...)  Matches if ... doesn't match next.&#10;    (?&lt;=...) Matches if preceded by ... (must be fixed length).&#10;    (?&lt;!...) Matches if not preceded by ... (must be fixed length).&#10;    (?(id/name)yes|no) Matches yes pattern if the group with id/name matched,&#10;                       the (optional) no pattern otherwise.&#10;&#10;The special sequences consist of &quot;\\&quot; and a character from the list&#10;below.  If the ordinary character is not on the list, then the&#10;resulting RE will match the second character.&#10;    \number  Matches the contents of the group of the same number.&#10;    \A       Matches only at the start of the string.&#10;    \Z       Matches only at the end of the string.&#10;    \b       Matches the empty string, but only at the start or end of a word.&#10;    \B       Matches the empty string, but not at the start or end of a word.&#10;    \d       Matches any decimal digit; equivalent to the set [0-9].&#10;    \D       Matches any non-digit character; equivalent to the set [^0-9].&#10;    \s       Matches any whitespace character; equivalent to [ \t\n\r\f\v].&#10;    \S       Matches any non-whitespace character; equiv. to [^ \t\n\r\f\v].&#10;    \w       Matches any alphanumeric character; equivalent to [a-zA-Z0-9_].&#10;             With LOCALE, it will match the set [0-9_] plus characters defined&#10;             as letters for the current locale.&#10;    \W       Matches the complement of \w.&#10;    \\       Matches a literal backslash.&#10;&#10;This module exports the following functions:&#10;    match    Match a regular expression pattern to the beginning of a string.&#10;    search   Search a string for the presence of a pattern.&#10;    sub      Substitute occurrences of a pattern found in a string.&#10;    subn     Same as sub, but also return the number of substitutions made.&#10;    split    Split a string by the occurrences of a pattern.&#10;    findall  Find all occurrences of a pattern in a string.&#10;    finditer Return an iterator yielding a match object for each match.&#10;    compile  Compile a pattern into a RegexObject.&#10;    purge    Clear the regular expression cache.&#10;    escape   Backslash all non-alphanumerics in a string.&#10;&#10;Some of the functions in this module takes flags as optional parameters:&#10;    I  IGNORECASE  Perform case-insensitive matching.&#10;    L  LOCALE      Make \w, \W, \b, \B, dependent on the current locale.&#10;    M  MULTILINE   &quot;^&quot; matches the beginning of lines (after a newline)&#10;                   as well as the string.&#10;                   &quot;$&quot; matches the end of lines (before a newline) as well&#10;                   as the end of the string.&#10;    S  DOTALL      &quot;.&quot; matches any character at all, including the newline.&#10;    X  VERBOSE     Ignore whitespace and comments for nicer looking RE's.&#10;    U  UNICODE     Make \w, \W, \b, \B, dependent on the Unicode locale.&#10;&#10;This module also defines an exception 'error'.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.DEBUG" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.DOTALL" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.I" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.IGNORECASE" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.L" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.LOCALE" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.M" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.MULTILINE" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.S" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.Scanner" func="yes">
+			<Overload retVal="" descr="(classobj)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.T" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.TEMPLATE" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.U" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.UNICODE" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.VERBOSE" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.X" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.compile" func="yes">
+			<Overload retVal="" descr="Compile a regular expression pattern, returning a pattern object.">
+				<Param name="pattern" />
+				<Param name="[flags=0]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.error" />
+		<KeyWord name="re.error.args" func="yes">
+			<Overload retVal="" descr="(getset_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.error.message" func="yes">
+			<Overload retVal="" descr="(getset_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.escape" func="yes">
+			<Overload retVal="" descr="Escape all non-alphanumeric characters in pattern.">
+				<Param name="pattern" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.findall" func="yes">
+			<Overload retVal="" descr="Return a list of all non-overlapping matches in the string.&#10;&#10;If one or more groups are present in the pattern, return a&#10;list of groups; this will be a list of tuples if the pattern&#10;has more than one group.&#10;&#10;Empty matches are included in the result.">
+				<Param name="pattern" />
+				<Param name="string" />
+				<Param name="[flags=0]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.finditer" func="yes">
+			<Overload retVal="" descr="Return an iterator over all non-overlapping matches in the&#10;string.  For each match, the iterator returns a match object.&#10;&#10;Empty matches are included in the result.">
+				<Param name="pattern" />
+				<Param name="string" />
+				<Param name="[flags=0]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.match" func="yes">
+			<Overload retVal="" descr="Try to apply the pattern at the start of the string, returning&#10;a match object, or None if no match was found.">
+				<Param name="pattern" />
+				<Param name="string" />
+				<Param name="[flags=0]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.purge" func="yes">
+			<Overload retVal="" descr="Clear the regular expression cache">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.search" func="yes">
+			<Overload retVal="" descr="Scan through string looking for a match to the pattern, returning&#10;a match object, or None if no match was found.">
+				<Param name="pattern" />
+				<Param name="string" />
+				<Param name="[flags=0]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.split" func="yes">
+			<Overload retVal="" descr="Split the source string by the occurrences of the pattern,&#10;returning a list containing the resulting substrings.">
+				<Param name="pattern" />
+				<Param name="string" />
+				<Param name="[maxsplit=0" />
+				<Param name="[flags=0]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.sub" func="yes">
+			<Overload retVal="" descr="Return the string obtained by replacing the leftmost&#10;non-overlapping occurrences of the pattern in string by the&#10;replacement repl.  repl can be either a string or a callable;&#10;if a string, backslash escapes in it are processed.  If it is&#10;a callable, it's passed the match object and must return&#10;a replacement string to be used.">
+				<Param name="pattern" />
+				<Param name="repl" />
+				<Param name="string" />
+				<Param name="[count=0" />
+				<Param name="[flags=0]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.subn" func="yes">
+			<Overload retVal="" descr="Return a 2-tuple containing (new_string, number).&#10;new_string is the string obtained by replacing the leftmost&#10;non-overlapping occurrences of the pattern in the source&#10;string by the replacement repl.  number is the number of&#10;substitutions that were made. repl can be either a string or a&#10;callable; if a string, backslash escapes in it are processed.&#10;If it is a callable, it's passed the match object and must&#10;return a replacement string to be used.">
+				<Param name="pattern" />
+				<Param name="repl" />
+				<Param name="string" />
+				<Param name="[count=0" />
+				<Param name="[flags=0]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="re.template" func="yes">
+			<Overload retVal="" descr="Compile a template pattern, returning a pattern object">
+				<Param name="pattern" />
+				<Param name="[flags=0]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="read" func="yes">
+			<Overload retVal="" descr="read([size]) -&gt; read at most size bytes, returned as a string.&#10;&#10;If the size argument is negative or omitted, read until EOF is reached.&#10;Notice that when in non-blocking mode, less data than what was requested&#10;may be returned, even if no size parameter was given.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="readinto" func="yes">
+			<Overload retVal="" descr="readinto() -&gt; Undocumented.  Don't use this; it may go away.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="readline" func="yes">
+			<Overload retVal="" descr="readline([size]) -&gt; next line from the file, as a string.&#10;&#10;Retain newline.  A non-negative size argument limits the maximum&#10;number of bytes to return (an incomplete line may be returned then).&#10;Return an empty string at EOF.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="readlines" func="yes">
+			<Overload retVal="" descr="readlines([size]) -&gt; list of strings, each a line from the file.&#10;&#10;Call readline() repeatedly and return a list of the lines so read.&#10;The optional size argument, if given, is an approximate bound on the&#10;total number of bytes in the lines returned.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="readlink" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="reduce" func="yes">
+			<Overload retVal="" descr="reduce(function, sequence[, initial]) -&gt; value&#10;&#10;Apply a function of two arguments cumulatively to the items of a sequence,&#10;from left to right, so as to reduce the sequence to a single value.&#10;For example, reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]) calculates&#10;((((1+2)+3)+4)+5).  If initial is present, it is placed before the items&#10;of the sequence in the calculation, and serves as a default when the&#10;sequence is empty.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="reload" func="yes">
+			<Overload retVal="" descr="reload(module) -&gt; module&#10;&#10;Reload the module.  The module must have been successfully imported before.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="remove" func="yes">
+			<Overload retVal="" descr="Remove an element from a set; it must be a member.&#10;&#10;If the element is not a member, raise a KeyError.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="removedirs" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rename" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="renames" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="replace" func="yes">
+			<Overload retVal="" descr="B.replace(old, new[, count]) -&gt; bytes&#10;&#10;Return a copy of B with all occurrences of subsection&#10;old replaced by new.  If the optional argument count is&#10;given, only the first count occurrences are replaced.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="repr" func="yes">
+			<Overload retVal="" descr="repr(object) -&gt; string&#10;&#10;Return the canonical string representation of the object.&#10;For most object types, eval(repr(object)) == object.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="return" />
+		<KeyWord name="reverse" func="yes">
+			<Overload retVal="" descr="L.reverse() -- reverse *IN PLACE*">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="reversed" func="yes">
+			<Overload retVal="" descr="reversed(sequence) -&gt; reverse iterator over values of the sequence&#10;&#10;Return a reverse iterator">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rfind" func="yes">
+			<Overload retVal="" descr="B.rfind(sub [,start [,end]]) -&gt; int&#10;&#10;Return the highest index in B where subsection sub is found,&#10;such that sub is contained within B[start,end].  Optional&#10;arguments start and end are interpreted as in slice notation.&#10;&#10;Return -1 on failure.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rindex" func="yes">
+			<Overload retVal="" descr="S.rindex(sub [,start [,end]]) -&gt; int&#10;&#10;Like S.rfind() but raise ValueError when the substring is not found.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rjust" func="yes">
+			<Overload retVal="" descr="B.rjust(width[, fillchar]) -&gt; copy of B&#10;&#10;Return B right justified in a string of length width. Padding is&#10;done using the specified fill character (default is a space)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rmdir" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="round" func="yes">
+			<Overload retVal="" descr="round(number[, ndigits]) -&gt; floating point number&#10;&#10;Round a number to a given precision in decimal digits (default 0 digits).&#10;This always returns a floating point number.  Precision may be negative.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rpartition" func="yes">
+			<Overload retVal="" descr="B.rpartition(sep) -&gt; (head, sep, tail)&#10;&#10;Searches for the separator sep in B, starting at the end of B,&#10;and returns the part before it, the separator itself, and the&#10;part after it.  If the separator is not found, returns two empty&#10;bytearray objects and B.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rsplit" func="yes">
+			<Overload retVal="" descr="S.rsplit([sep [,maxsplit]]) -&gt; list of strings&#10;&#10;Return a list of the words in the string S, using sep as the&#10;delimiter string, starting at the end of the string and working&#10;to the front.  If maxsplit is given, at most maxsplit splits are&#10;done. If sep is not specified or is None, any whitespace string&#10;is a separator.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rstrip" func="yes">
+			<Overload retVal="" descr="S.rstrip([chars]) -&gt; string or unicode&#10;&#10;Return a copy of the string S with trailing whitespace removed.&#10;If chars is given and not None, remove characters in chars instead.&#10;If chars is unicode, S will be converted to unicode before stripping">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="search" func="yes">
+			<Overload retVal="" descr="Function of re">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="seek" func="yes">
+			<Overload retVal="" descr="seek(offset[, whence]) -&gt; None.  Move to new file position.&#10;&#10;Argument offset is a byte count.  Optional argument whence defaults to&#10;0 (offset from start of file, offset should be &gt;= 0); other values are 1&#10;(move relative to current position, positive or negative), and 2 (move&#10;relative to end of file, usually negative, although many platforms allow&#10;seeking beyond the end of a file).  If the file is opened in text mode,&#10;only offsets returned by tell() are legal.  Use of other offsets causes&#10;undefined behavior.&#10;Note that not all file objects are seekable.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="send_signal" func="yes">
+			<Overload retVal="" descr="Function of subprocess.Popen">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="set" func="yes">
+			<Overload retVal="" descr="set() -&gt; new empty set object&#10;set(iterable) -&gt; new set object&#10;&#10;Build an unordered collection of unique elements.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setattr" func="yes">
+			<Overload retVal="" descr="setattr(object, name, value)&#10;&#10;Set a named attribute on an object; setattr(x, 'y', v) is equivalent to&#10;``x.y = v''.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setcheckinterval" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setdefault" func="yes">
+			<Overload retVal="" descr="D.setdefault(k[,d]) -&gt; D.get(k,d), also set D[k]=d if k not in D">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setdlopenflags" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setegid" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="seteuid" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setgid" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setgroups" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setpgid" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setpgrp" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setprofile" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setrecursionlimit" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setregid" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setreuid" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setsid" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setter" func="yes">
+			<Overload retVal="" descr="Descriptor to change the setter on a property.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="settrace" func="yes">
+			<Overload retVal="" descr="Function of sys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setuid" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="slice" func="yes">
+			<Overload retVal="" descr="slice(stop)&#10;slice(start, stop[, step])&#10;&#10;Create a slice object.  This is used for extended slicing (e.g. a[0:10:2]).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sort" func="yes">
+			<Overload retVal="" descr="L.sort(cmp=None, key=None, reverse=False) -- stable sort *IN PLACE*;&#10;cmp(x, y) -&gt; -1, 0, 1">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sorted" func="yes">
+			<Overload retVal="" descr="sorted(iterable, cmp=None, key=None, reverse=False) --&gt; new sorted list">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spawnl" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spawnle" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spawnlp" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spawnlpe" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spawnv" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spawnve" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spawnvp" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spawnvpe" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="split" func="yes">
+			<Overload retVal="" descr="S.split([sep [,maxsplit]]) -&gt; list of strings&#10;&#10;Return a list of the words in the string S, using sep as the&#10;delimiter string.  If maxsplit is given, at most maxsplit&#10;splits are done. If sep is not specified or is None, any&#10;whitespace string is a separator and empty strings are removed&#10;from the result.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="splitlines" func="yes">
+			<Overload retVal="" descr="S.splitlines(keepends=False) -&gt; list of strings&#10;&#10;Return a list of the lines in S, breaking at line boundaries.&#10;Line breaks are not included in the resulting list unless keepends&#10;is given and true.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="startswith" func="yes">
+			<Overload retVal="" descr="S.startswith(prefix[, start[, end]]) -&gt; bool&#10;&#10;Return True if S starts with the specified prefix, False otherwise.&#10;With optional start, test S beginning at that position.&#10;With optional end, stop comparing S at that position.&#10;prefix can also be a tuple of strings to try.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stat" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stat_float_times" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="staticmethod" func="yes">
+			<Overload retVal="" descr="staticmethod(function) -&gt; method&#10;&#10;Convert a function to be a static method.&#10;&#10;A static method does not receive an implicit first argument.&#10;To declare a static method, use this idiom:&#10;&#10;     class C:&#10;         @staticmethod&#10;         def f(arg1, arg2, ...):&#10;             ...&#10;&#10;It can be called either on the class (e.g. C.f()) or on an instance&#10;(e.g. C().f()).  The instance is ignored except for its class.&#10;&#10;Static methods in Python are similar to those found in Java or C++.&#10;For a more advanced concept, see the classmethod builtin.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="statvfs" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="str" func="yes">
+			<Overload retVal="" descr="str(object='') -&gt; string&#10;&#10;Return a nice string representation of the object.&#10;If the argument is a string, the return value is the same object.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="strerror" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="strip" func="yes">
+			<Overload retVal="" descr="S.strip([chars]) -&gt; string or unicode&#10;&#10;Return a copy of the string S with leading and trailing&#10;whitespace removed.&#10;If chars is given and not None, remove characters in chars instead.&#10;If chars is unicode, S will be converted to unicode before stripping">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sub" func="yes">
+			<Overload retVal="" descr="Function of re">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subn" func="yes">
+			<Overload retVal="" descr="Function of re">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess" func="yes">
+			<Overload retVal="" descr="Subprocesses with accessible I/O streams&#10;&#10;This module allows you to spawn processes, connect to their&#10;input/output/error pipes, and obtain their return codes.&#10;&#10;For a complete description of this module see the Python documentation.&#10;&#10;Main API&#10;========&#10;call(...): Runs a command, waits for it to complete, then returns&#10;    the return code.&#10;check_call(...): Same as call() but raises CalledProcessError()&#10;    if return code is not 0&#10;check_output(...): Same as check_call() but returns the contents of&#10;    stdout instead of a return code&#10;Popen(...): A class for flexibly executing a command in a new process&#10;&#10;Constants&#10;---------&#10;PIPE:    Special value that indicates a pipe should be created&#10;STDOUT:  Special value that indicates that stderr should go to stdout">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess.CalledProcessError" func="yes">
+			<Overload retVal="" descr="This exception is raised when a process run by check_call() or&#10;check_output() returns a non-zero exit status.&#10;&#10;Attributes:&#10;  cmd, returncode, output">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess.CalledProcessError.args" func="yes">
+			<Overload retVal="" descr="(getset_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess.CalledProcessError.message" func="yes">
+			<Overload retVal="" descr="(getset_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess.MAXFD" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess.PIPE" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess.Popen" func="yes">
+			<Overload retVal="" descr="Execute a child program in a new process.&#10;&#10;For a complete description of the arguments see the Python documentation.&#10;&#10;Arguments:&#10;  args: A string, or a sequence of program arguments.&#10;&#10;  bufsize: supplied as the buffering argument to the open() function when&#10;      creating the stdin/stdout/stderr pipe file objects&#10;&#10;  executable: A replacement program to execute.&#10;&#10;  stdin, stdout and stderr: These specify the executed programs' standard&#10;      input, standard output and standard error file handles, respectively.&#10;&#10;  preexec_fn: (POSIX only) An object to be called in the child process&#10;      just before the child is executed.&#10;&#10;  close_fds: Controls closing or inheriting of file descriptors.&#10;&#10;  shell: If true, the command will be executed through the shell.&#10;&#10;  cwd: Sets the current directory before the child is executed.&#10;&#10;  env: Defines the environment variables for the new process.&#10;&#10;  universal_newlines: If true, use universal line endings for file&#10;      objects stdin, stdout and stderr.&#10;&#10;  startupinfo and creationflags (Windows only)&#10;&#10;Attributes:&#10;    stdin, stdout, stderr, pid, returncode">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess.Popen.communicate" func="yes">
+			<Overload retVal="" descr="Interact with process: Send data to stdin.  Read data from&#10;stdout and stderr, until end-of-file is reached.  Wait for&#10;process to terminate.  The optional input argument should be a&#10;string to be sent to the child process, or None, if no data&#10;should be sent to the child.&#10;&#10;communicate() returns a tuple (stdout, stderr).">
+				<Param name="self" />
+				<Param name="[input=None]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess.Popen.kill" func="yes">
+			<Overload retVal="" descr="Kill the process with SIGKILL">
+				<Param name="self" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess.Popen.pipe_cloexec" func="yes">
+			<Overload retVal="" descr="Create a pipe with FDs set CLOEXEC.">
+				<Param name="self" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess.Popen.poll" func="yes">
+			<Overload retVal="" descr="Check if child process has terminated. Set and return returncode&#10;attribute.">
+				<Param name="self" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess.Popen.send_signal" func="yes">
+			<Overload retVal="" descr="Send a signal to the process">
+				<Param name="self" />
+				<Param name="sig" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess.Popen.terminate" func="yes">
+			<Overload retVal="" descr="Terminate the process with SIGTERM">
+				<Param name="self" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess.Popen.wait" func="yes">
+			<Overload retVal="" descr="Wait for child process to terminate.  Returns returncode&#10;attribute.">
+				<Param name="self" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess.STDOUT" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess.call" func="yes">
+			<Overload retVal="" descr='Run command with arguments.  Wait for command to complete, then&#10;return the returncode attribute.&#10;&#10;The arguments are the same as for the Popen constructor.  Example:&#10;&#10;retcode = call(["ls", "-l"])'>
+				<Param name="[**]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess.check_call" func="yes">
+			<Overload retVal="" descr='Run command with arguments.  Wait for command to complete.  If&#10;the exit code was zero then return, otherwise raise&#10;CalledProcessError.  The CalledProcessError object will have the&#10;return code in the returncode attribute.&#10;&#10;The arguments are the same as for the Popen constructor.  Example:&#10;&#10;check_call(["ls", "-l"])'>
+				<Param name="[**]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess.check_output" func="yes">
+			<Overload retVal="" descr="Run command with arguments and return its output as a byte string.&#10;&#10;If the exit code was non-zero it raises a CalledProcessError.  The&#10;CalledProcessError object will have the return code in the returncode&#10;attribute and output in the output attribute.&#10;&#10;The arguments are the same as for the Popen constructor.  Example:&#10;&#10;&gt;&gt;&gt; check_output([&quot;ls&quot;, &quot;-l&quot;, &quot;/dev/null&quot;])&#10;'crw-rw-rw- 1 root root 1, 3 Oct 18  2007 /dev/null\n'&#10;&#10;The stdout argument is not allowed as it is used internally.&#10;To capture standard error in the result, use stderr=STDOUT.&#10;&#10;&gt;&gt;&gt; check_output([&quot;/bin/sh&quot;, &quot;-c&quot;,&#10;...               &quot;ls -l non_existent_file ; exit 0&quot;],&#10;...              stderr=STDOUT)&#10;'ls: non_existent_file: No such file or directory\n'">
+				<Param name="[**]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="subprocess.list2cmdline" func="yes">
+			<Overload retVal="" descr="Translate a sequence of arguments into a command line&#10;string, using the same rules as the MS C runtime:&#10;&#10;1) Arguments are delimited by white space, which is either a&#10;   space or a tab.&#10;&#10;2) A string surrounded by double quotation marks is&#10;   interpreted as a single argument, regardless of white space&#10;   contained within.  A quoted string can be embedded in an&#10;   argument.&#10;&#10;3) A double quotation mark preceded by a backslash is&#10;   interpreted as a literal double quotation mark.&#10;&#10;4) Backslashes are interpreted literally, unless they&#10;   immediately precede a double quotation mark.&#10;&#10;5) If backslashes immediately precede a double quotation mark,&#10;   every pair of backslashes is interpreted as a literal&#10;   backslash.  If the number of backslashes is odd, the last&#10;   backslash escapes the next double quotation mark as&#10;   described in rule 3.">
+				<Param name="seq" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sum" func="yes">
+			<Overload retVal="" descr="sum(sequence[, start]) -&gt; value&#10;&#10;Return the sum of a sequence of numbers (NOT strings) plus the value&#10;of parameter 'start' (which defaults to 0).  When the sequence is&#10;empty, return start.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="super" func="yes">
+			<Overload retVal="" descr="super(type, obj) -&gt; bound super object; requires isinstance(obj, type)&#10;super(type) -&gt; unbound super object&#10;super(type, type2) -&gt; bound super object; requires issubclass(type2, type)&#10;Typical use to call a cooperative superclass method:&#10;class C(B):&#10;    def meth(self, arg):&#10;        super(C, self).meth(arg)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="swapcase" func="yes">
+			<Overload retVal="" descr="S.swapcase() -&gt; string&#10;&#10;Return a copy of the string S with uppercase characters&#10;converted to lowercase and vice versa.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="symlink" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="symmetric_difference" func="yes">
+			<Overload retVal="" descr="Return the symmetric difference of two sets as a new set.&#10;&#10;(i.e. all elements that are in exactly one of the sets.)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="symmetric_difference_update" func="yes">
+			<Overload retVal="" descr="Update a set with the symmetric difference of itself and another.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys" func="yes">
+			<Overload retVal="" descr="This module provides access to some objects used or maintained by the&#10;interpreter and to functions that interact strongly with the interpreter.&#10;&#10;Dynamic objects:&#10;&#10;argv -- command line arguments; argv[0] is the script pathname if known&#10;path -- module search path; path[0] is the script directory, else ''&#10;modules -- dictionary of loaded modules&#10;&#10;displayhook -- called to show results in an interactive session&#10;excepthook -- called to handle any uncaught exception other than SystemExit&#10;  To customize printing in an interactive session or to install a custom&#10;  top-level exception handler, assign other functions to replace these.&#10;&#10;exitfunc -- if sys.exitfunc exists, this routine is called when Python exits&#10;  Assigning to sys.exitfunc is deprecated; use the atexit module instead.&#10;&#10;stdin -- standard input file object; used by raw_input() and input()&#10;stdout -- standard output file object; used by the print statement&#10;stderr -- standard error object; used for error messages&#10;  By assigning other file objects (or objects that behave like files)&#10;  to these, it is possible to redirect all of the interpreter's I/O.&#10;&#10;last_type -- type of last uncaught exception&#10;last_value -- value of last uncaught exception&#10;last_traceback -- traceback of last uncaught exception&#10;  These three are only available in an interactive session after a&#10;  traceback has been printed.&#10;&#10;exc_type -- type of exception currently being handled&#10;exc_value -- value of exception currently being handled&#10;exc_traceback -- traceback of exception currently being handled&#10;  The function exc_info() should be used instead of these three,&#10;  because it is thread-safe.&#10;&#10;Static objects:&#10;&#10;float_info -- a dict with information about the float inplementation.&#10;long_info -- a struct sequence with information about the long implementation.&#10;maxint -- the largest supported integer (the smallest is -maxint-1)&#10;maxsize -- the largest supported length of containers.&#10;maxunicode -- the largest supported character&#10;builtin_module_names -- tuple of module names built into this interpreter&#10;version -- the version of this interpreter as a string&#10;version_info -- version information as a named tuple&#10;hexversion -- version information encoded as a single integer&#10;copyright -- copyright notice pertaining to this interpreter&#10;platform -- platform identifier&#10;executable -- absolute path of the executable binary of the Python interpreter&#10;prefix -- prefix used to find the Python library&#10;exec_prefix -- prefix used to find the machine-specific Python library&#10;float_repr_style -- string indicating the style of repr() output for floats&#10;__stdin__ -- the original stdin; don't touch!&#10;__stdout__ -- the original stdout; don't touch!&#10;__stderr__ -- the original stderr; don't touch!&#10;__displayhook__ -- the original displayhook; don't touch!&#10;__excepthook__ -- the original excepthook; don't touch!&#10;&#10;Functions:&#10;&#10;displayhook() -- print an object to the screen, and save it in __builtin__._&#10;excepthook() -- print an exception and its traceback to sys.stderr&#10;exc_info() -- return thread-safe information about the current exception&#10;exc_clear() -- clear the exception state for the current thread&#10;exit() -- exit the interpreter by raising SystemExit&#10;getdlopenflags() -- returns flags to be used for dlopen() calls&#10;getprofile() -- get the global profiling function&#10;getrefcount() -- return the reference count for an object (plus one :-)&#10;getrecursionlimit() -- return the max recursion depth for the interpreter&#10;getsizeof() -- return the size of an object in bytes&#10;gettrace() -- get the global debug tracing function&#10;setcheckinterval() -- control how often the interpreter checks for events&#10;setdlopenflags() -- set the flags to be used for dlopen() calls&#10;setprofile() -- set the global profiling function&#10;setrecursionlimit() -- set the max recursion depth for the interpreter&#10;settrace() -- set the global debug tracing function">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.api_version" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.argv" func="yes">
+			<Overload retVal="" descr="(list)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.builtin_module_names" func="yes">
+			<Overload retVal="" descr="(tuple)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.byteorder" func="yes">
+			<Overload retVal="" descr="(str)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.call_tracing" func="yes">
+			<Overload retVal="" descr="call_tracing(func, args) -&gt; object&#10;&#10;Call func(*args), while tracing is enabled.  The tracing state is&#10;saved, and restored afterwards.  This is intended to be called from&#10;a debugger from a checkpoint, to recursively debug some other code.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.callstats" func="yes">
+			<Overload retVal="" descr="callstats() -&gt; tuple of integers&#10;&#10;Return a tuple of function call statistics, if CALL_PROFILE was defined&#10;when Python was built.  Otherwise, return None.&#10;&#10;When enabled, this function returns detailed, implementation-specific&#10;details about the number of function calls executed. The return value is&#10;a 11-tuple where the entries in the tuple are counts of:&#10;0. all function calls&#10;1. calls to PyFunction_Type objects&#10;2. PyFunction calls that do not create an argument tuple&#10;3. PyFunction calls that do not create an argument tuple&#10;   and bypass PyEval_EvalCodeEx()&#10;4. PyMethod calls&#10;5. PyMethod calls on bound methods&#10;6. PyType calls&#10;7. PyCFunction calls&#10;8. generator calls&#10;9. All other calls&#10;10. Number of stack pops performed by call_function()">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.copyright" func="yes">
+			<Overload retVal="" descr="(str)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.displayhook" func="yes">
+			<Overload retVal="" descr="displayhook(object) -&gt; None&#10;&#10;Print an object to sys.stdout and also save it in __builtin__._">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.exc_clear" func="yes">
+			<Overload retVal="" descr="exc_clear() -&gt; None&#10;&#10;Clear global information on the current exception.  Subsequent calls to&#10;exc_info() will return (None,None,None) until another exception is raised&#10;in the current thread or the execution stack returns to a frame where&#10;another exception is being handled.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.exc_info" func="yes">
+			<Overload retVal="" descr="exc_info() -&gt; (type, value, traceback)&#10;&#10;Return information about the most recent exception caught by an except&#10;clause in the current stack frame or in an older stack frame.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.exc_traceback" func="yes">
+			<Overload retVal="" descr="(traceback)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.exc_type" func="yes">
+			<Overload retVal="" descr="Inappropriate argument type.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.exc_type.args" func="yes">
+			<Overload retVal="" descr="(getset_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.exc_type.message" func="yes">
+			<Overload retVal="" descr="(getset_descriptor)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.exc_value" func="yes">
+			<Overload retVal="" descr="(TypeError)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.excepthook" func="yes">
+			<Overload retVal="" descr="excepthook(exctype, value, traceback) -&gt; None&#10;&#10;Handle an exception by displaying it with a traceback on sys.stderr.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.exec_prefix" func="yes">
+			<Overload retVal="" descr="(str)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.executable" func="yes">
+			<Overload retVal="" descr="(str)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.exit" func="yes">
+			<Overload retVal="" descr="exit([status])&#10;&#10;Exit the interpreter by raising SystemExit(status).&#10;If the status is omitted or None, it defaults to zero (i.e., success).&#10;If the status is an integer, it will be used as the system exit status.&#10;If it is another kind of object, it will be printed and the system&#10;exit status will be one (i.e., failure).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.flags" func="yes">
+			<Overload retVal="" descr="(flags)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.float_info" func="yes">
+			<Overload retVal="" descr="(float_info)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.float_repr_style" func="yes">
+			<Overload retVal="" descr="(str)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.getcheckinterval" func="yes">
+			<Overload retVal="" descr="getcheckinterval() -&gt; current check interval; see setcheckinterval().">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.getdefaultencoding" func="yes">
+			<Overload retVal="" descr="getdefaultencoding() -&gt; string&#10;&#10;Return the current default string encoding used by the Unicode &#10;implementation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.getdlopenflags" func="yes">
+			<Overload retVal="" descr="getdlopenflags() -&gt; int&#10;&#10;Return the current value of the flags that are used for dlopen calls.&#10;The flag constants are defined in the ctypes and DLFCN modules.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.getfilesystemencoding" func="yes">
+			<Overload retVal="" descr="getfilesystemencoding() -&gt; string&#10;&#10;Return the encoding used to convert Unicode filenames in&#10;operating system filenames.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.getprofile" func="yes">
+			<Overload retVal="" descr="getprofile()&#10;&#10;Return the profiling function set with sys.setprofile.&#10;See the profiler chapter in the library manual.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.getrecursionlimit" func="yes">
+			<Overload retVal="" descr="getrecursionlimit()&#10;&#10;Return the current value of the recursion limit, the maximum depth&#10;of the Python interpreter stack.  This limit prevents infinite&#10;recursion from causing an overflow of the C stack and crashing Python.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.getrefcount" func="yes">
+			<Overload retVal="" descr="getrefcount(object) -&gt; integer&#10;&#10;Return the reference count of object.  The count returned is generally&#10;one higher than you might expect, because it includes the (temporary)&#10;reference as an argument to getrefcount().">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.getsizeof" func="yes">
+			<Overload retVal="" descr="getsizeof(object, default) -&gt; int&#10;&#10;Return the size of object in bytes.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.gettrace" func="yes">
+			<Overload retVal="" descr="gettrace()&#10;&#10;Return the global debug tracing function set with sys.settrace.&#10;See the debugger chapter in the library manual.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.hexversion" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.long_info" func="yes">
+			<Overload retVal="" descr="(long_info)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.maxint" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.maxsize" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.maxunicode" func="yes">
+			<Overload retVal="" descr="(int)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.modules" func="yes">
+			<Overload retVal="" descr="(dict)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.path" func="yes">
+			<Overload retVal="" descr="(list)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.path_hooks" func="yes">
+			<Overload retVal="" descr="(list)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.path_importer_cache" func="yes">
+			<Overload retVal="" descr="(dict)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.platform" func="yes">
+			<Overload retVal="" descr="(str)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.prefix" func="yes">
+			<Overload retVal="" descr="(str)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.setcheckinterval" func="yes">
+			<Overload retVal="" descr="setcheckinterval(n)&#10;&#10;Tell the Python interpreter to check for asynchronous events every&#10;n instructions.  This also affects how often thread switches occur.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.setdlopenflags" func="yes">
+			<Overload retVal="" descr="setdlopenflags(n) -&gt; None&#10;&#10;Set the flags used by the interpreter for dlopen calls, such as when the&#10;interpreter loads extension modules.  Among other things, this will enable&#10;a lazy resolving of symbols when importing a module, if called as&#10;sys.setdlopenflags(0).  To share symbols across extension modules, call as&#10;sys.setdlopenflags(ctypes.RTLD_GLOBAL).  Symbolic names for the flag modules&#10;can be either found in the ctypes module, or in the DLFCN module. If DLFCN&#10;is not available, it can be generated from /usr/include/dlfcn.h using the&#10;h2py script.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.setprofile" func="yes">
+			<Overload retVal="" descr="setprofile(function)&#10;&#10;Set the profiling function.  It will be called on each function call&#10;and return.  See the profiler chapter in the library manual.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.setrecursionlimit" func="yes">
+			<Overload retVal="" descr="setrecursionlimit(n)&#10;&#10;Set the maximum depth of the Python interpreter stack to n.  This&#10;limit prevents infinite recursion from causing an overflow of the C&#10;stack and crashing Python.  The highest possible limit is platform-&#10;dependent.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.settrace" func="yes">
+			<Overload retVal="" descr="settrace(function)&#10;&#10;Set the global debug tracing function.  It will be called on each&#10;function call.  See the debugger chapter in the library manual.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.stderr" func="yes">
+			<Overload retVal="" descr="(file)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.stdin" func="yes">
+			<Overload retVal="" descr="(file)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.stdout" func="yes">
+			<Overload retVal="" descr="(file)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.subversion" func="yes">
+			<Overload retVal="" descr="(tuple)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.version" func="yes">
+			<Overload retVal="" descr="(str)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sys.version_info" func="yes">
+			<Overload retVal="" descr="(version_info)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sysconf" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="system" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tcgetpgrp" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tcsetpgrp" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tell" func="yes">
+			<Overload retVal="" descr="tell() -&gt; current file position, an integer (may be a long integer).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="template" func="yes">
+			<Overload retVal="" descr="Function of re">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tempnam" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="terminate" func="yes">
+			<Overload retVal="" descr="Function of subprocess.Popen">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="times" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="title" func="yes">
+			<Overload retVal="" descr="S.title() -&gt; unicode&#10;&#10;Return a titlecased version of S, i.e. words start with title case&#10;characters, all remaining cased characters have lower case.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tmpfile" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tmpnam" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tobytes" />
+		<KeyWord name="tolist" />
+		<KeyWord name="translate" func="yes">
+			<Overload retVal="" descr="B.translate(table[, deletechars]) -&gt; bytearray&#10;&#10;Return a copy of B, where all characters occurring in the&#10;optional argument deletechars are removed, and the remaining&#10;characters have been mapped through the given translation&#10;table, which must be a bytes object of length 256.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="truncate" func="yes">
+			<Overload retVal="" descr="truncate([size]) -&gt; None.  Truncate the file to at most size bytes.&#10;&#10;Size defaults to the current file position, as returned by tell().">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="try" />
+		<KeyWord name="ttyname" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tuple" func="yes">
+			<Overload retVal="" descr="tuple() -&gt; empty tuple&#10;tuple(iterable) -&gt; tuple initialized from iterable's items&#10;&#10;If the argument is a tuple, the return value is the same object.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="type" func="yes">
+			<Overload retVal="" descr="type(object) -&gt; the object's type&#10;type(name, bases, dict) -&gt; a new type">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="umask" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uname" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="unichr" func="yes">
+			<Overload retVal="" descr="unichr(i) -&gt; Unicode character&#10;&#10;Return a Unicode string of one character with ordinal i; 0 &lt;= i &lt;= 0x10ffff.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="unicode" func="yes">
+			<Overload retVal="" descr="unicode(object='') -&gt; unicode object&#10;unicode(string[, encoding[, errors]]) -&gt; unicode object&#10;&#10;Create a new Unicode object from the given encoded string.&#10;encoding defaults to the current default string encoding.&#10;errors can be 'strict', 'replace' or 'ignore' and defaults to 'strict'.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="union" func="yes">
+			<Overload retVal="" descr="Return the union of sets as a new set.&#10;&#10;(i.e. all elements that are in either set.)">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="unlink" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="unsetenv" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="update" func="yes">
+			<Overload retVal="" descr="D.update([E, ]**F) -&gt; None.  Update D from dict/iterable E and F.&#10;If E present and has a .keys() method, does:     for k in E: D[k] = E[k]&#10;If E present and lacks .keys() method, does:     for (k, v) in E: D[k] = v&#10;In either case, this is followed by: for k in F: D[k] = F[k]">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="upper" func="yes">
+			<Overload retVal="" descr="S.upper() -&gt; unicode&#10;&#10;Return a copy of S converted to uppercase.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="urandom" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="utime" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="valid_boundary" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="values" func="yes">
+			<Overload retVal="" descr="D.values() -&gt; list of D's values">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="vars" func="yes">
+			<Overload retVal="" descr="vars([object]) -&gt; dictionary&#10;&#10;Without arguments, equivalent to locals().&#10;With an argument, equivalent to object.__dict__.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="viewitems" func="yes">
+			<Overload retVal="" descr="D.viewitems() -&gt; a set-like object providing a view on D's items">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="viewkeys" func="yes">
+			<Overload retVal="" descr="D.viewkeys() -&gt; a set-like object providing a view on D's keys">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="viewvalues" func="yes">
+			<Overload retVal="" descr="D.viewvalues() -&gt; an object providing a view on D's values">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="wait" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="wait3" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="wait4" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="waitpid" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="walk" func="yes">
+			<Overload retVal="" descr="Function of os">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="warn" func="yes">
+			<Overload retVal="" descr="Function of cgi">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="while" />
+		<KeyWord name="with" />
+		<KeyWord name="write" func="yes">
+			<Overload retVal="" descr="write(str) -&gt; None.  Write string str to file.&#10;&#10;Note that due to buffering, flush() or close() may be needed before&#10;the file on disk reflects the data written.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="writelines" func="yes">
+			<Overload retVal="" descr="writelines(sequence_of_strings) -&gt; None.  Write the strings to the file.&#10;&#10;Note that newlines are not added.  The sequence can be any iterable object&#10;producing strings. This is equivalent to calling write() for each string.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="xrange" func="yes">
+			<Overload retVal="" descr="xrange(stop) -&gt; xrange object&#10;xrange(start, stop[, step]) -&gt; xrange object&#10;&#10;Like range(), but instead of returning a list, returns an object that&#10;generates the numbers in the range on demand.  For looping, this is &#10;slightly faster than range() and more memory efficient.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="xreadlines" func="yes">
+			<Overload retVal="" descr="xreadlines() -&gt; returns self.&#10;&#10;For backward compatibility. File objects now include the performance&#10;optimizations previously implemented in the xreadlines module.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="yield" />
+		<KeyWord name="zfill" func="yes">
+			<Overload retVal="" descr="B.zfill(width) -&gt; copy of B&#10;&#10;Pad a numeric string B with zeros on the left, to fill a field&#10;of the specified width.  B is never truncated.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="zip" func="yes">
+			<Overload retVal="" descr="zip(seq1 [, seq2 [...]]) -&gt; [(seq1[0], seq2[0] ...), (...)]&#10;&#10;Return a list of tuples, where each tuple contains the i-th element&#10;from each of the argument sequences.  The returned list is truncated&#10;in length to the length of the shortest argument sequence.">
+			</Overload>
+		</KeyWord>
+	</AutoComplete>
+</NotepadPlus>
