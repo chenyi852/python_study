@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 #coding=utf-8
+import random
+
 
 print id(3)
 print type(3)
