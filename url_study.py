@@ -3,8 +3,8 @@
 
 import urllib
 import re
-from bs4 import BeautifulSoup
 
+from bs4 import BeautifulSoup
 
 def urlib_test():
 	counts = dict()
@@ -30,7 +30,18 @@ def bs_test(url):
 	tags = soup('a')
 	for tag in tags:
 	   print tag.get('href', None)
-	   
+	
+	html = urllib.urlopen(url).read()
+	soup = BeautifulSoup(html, "html.parser")
+	
+	# Retrieve all of the anchor tags
+	tags = soup('a')
+	for tag in tags:
+		# look at the parts of a tag
+		print 'TAG:', tag
+		print 'URL:', tag.get('herf', None)
+		print 'Content:', tag.contents[0]
+		print 'Attrs:', tag.attrs
 	   
 urlib_test()
 url_re("http://www.dr-chuck.com/page1.htm")
