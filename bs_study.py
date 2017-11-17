@@ -27,6 +27,27 @@ def bs_picx(url):
     print size, 'charatcters copied.'
     fhand.close()
 
+def bs_test(url):
+    lst = list()
+    index = url.rfind('/')
+    print index, "index\n"
+    root_url = url[0:index+1]
+    url = urllib.urlopen(url).read()
+    soup = BeautifulSoup(url, 'html.parser')
+
+    #Retrieve all of the anchor tags
+    tags = soup('a')
+    count = 0
+    for tag in tags:
+        #if re.search('[0-9]', tag.get('href', None)[:1]):
+        if tag.get('href', None)[0].isnumeric():
+            page = root_url + tag.get('href', None)
+            lst.append(page)
+            print page
+        count += 1
+        #print tag.get('href', None)
+    print "count is : ", count
 print "bs test"
 #bs_pic('http://www.py4inf.com/cover.jpg')
-bs_picx('http://www.py4inf.com/cover.jpg')
+#bs_picx('http://www.py4inf.com/cover.jpg')
+bs_test('http://www.piaotian.com/html/7/7794/index.html')
