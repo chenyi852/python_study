@@ -19,7 +19,6 @@ def modify_name(file_path):
 
         newname=re.sub(r'\[\w*\]\(*\d*\)*', "", filename)
         print("%s --> %s" %(filename, newname))
-        cleanup_filename(filename)
         """
 	    ewname=filename.replace("[mqms2](1)", '')
 	    newname=newname.replace("[mqms2]", '')
@@ -44,7 +43,6 @@ if __name__ == '__main__':
     if os.path.exists(cygwin_path):
         print("%s exists" %(cygwin_path))
         modify_name(cygwin_path)
-    cleanup_filename("my[mqms2].mp3")
     """ 
         for test
 	cleanup_filename("my[mqms2].mp3")
