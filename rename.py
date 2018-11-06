@@ -13,11 +13,12 @@ def modify_name(file_path):
 	list_file = os.listdir(file_path)
 	for item in list_file :
 		#将文件名中"[mqms2](1)"去掉
-		filename = filepath + '\\' + item
+		filename = file_path + '\\' + item
 		newname=filename.replace("[mqms2](1)", "")
 		newname=newname.replace("[mqms2]", "")
+		newname=newname.replace(' ', '')
 		if not (os.path.normcase(filename) == os.path.normcase(newname)):
-			print "move " + filename + "to " + newname
+			print ("move " + filename + "to " + newname)
 			shutil.move(filename, newname)
 
 if __name__ == '__main__':

@@ -4,8 +4,10 @@
 import os
 import shutil
 import filecmp
-dl_path=r'E:\BaiduYunDownload'
-msc_path=r'E:\music'
+#dl_path=r'E:\BaiduYunDownload'
+dl_path=r'D:\Users\c00200500.CHINA\Downloads'
+#msc_path=r'E:\music'
+msc_path=r'D:\03_personal\01_music'
 
 def endwith(*endstring):
 	ends = endstring
@@ -22,7 +24,7 @@ def rm_suffix(item):
 	
 def cp_download(src_path, dst_path):
 	files=filecmp.dircmp(src_path, dst_path).left_only
-	a=endwith('.mp3','.flac', 'm4a', 'ape')
+	a=endwith('.mp3','.flac', 'm4a', 'ape','wav')
 	f_files=filter(a, files)
 	
 	for item in f_files:
