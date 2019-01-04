@@ -41,4 +41,4 @@ if __name__ == '__main__':
     print('the file count before redundant files removed', oldf)
     delfile()
     print('After removing redundant files, there are only', filecount(), 'files')
-    print(oldf - filecount() + ' files has been removed')
+    print(oldf - filecount(),  ' files has been removed')
